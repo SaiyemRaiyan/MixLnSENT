@@ -1,0 +1,1232 @@
+[
+  {
+    "model": "Zero-Shot(mDeBERTa-XNLI)",
+    "setting": "zero-shot",
+    "seed": null,
+    "config": {
+      "n_sample": 500
+    },
+    "metrics": {
+      "eval_accuracy": 0.34,
+      "eval_precision": 0.3047190260719672,
+      "eval_recall": 0.34,
+      "eval_f1": 0.3084136327396728,
+      "eval_precision_macro": 0.25483147432459075,
+      "eval_recall_macro": 0.26764242745156386,
+      "eval_f1_macro": 0.24887303465469737
+    }
+  },
+  {
+    "model": "mBERT",
+    "setting": "five-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.8147506713867188,
+      "eval_accuracy": 0.31102231102231104,
+      "eval_precision": 0.35463565091924143,
+      "eval_recall": 0.31102231102231104,
+      "eval_f1": 0.3072402810811911,
+      "eval_precision_macro": 0.31832423934475046,
+      "eval_recall_macro": 0.3484291523572857,
+      "eval_f1_macro": 0.2954380595660324
+    }
+  },
+  {
+    "model": "mBERT",
+    "setting": "five-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4926365613937378,
+      "eval_accuracy": 0.348984348984349,
+      "eval_precision": 0.44268451353314126,
+      "eval_recall": 0.348984348984349,
+      "eval_f1": 0.36094742811081065,
+      "eval_precision_macro": 0.3876408260041998,
+      "eval_recall_macro": 0.3790057583951709,
+      "eval_f1_macro": 0.34005860089524836
+    }
+  },
+  {
+    "model": "mBERT",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4254989624023438,
+      "eval_accuracy": 0.35797535797535796,
+      "eval_precision": 0.3648726269956016,
+      "eval_recall": 0.35797535797535796,
+      "eval_f1": 0.343226109105398,
+      "eval_precision_macro": 0.370715771247216,
+      "eval_recall_macro": 0.3595430497643362,
+      "eval_f1_macro": 0.3482875082053505
+    }
+  },
+  {
+    "model": "mBERT",
+    "setting": "few-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4118114709854126,
+      "eval_accuracy": 0.4255744255744256,
+      "eval_precision": 0.44695347696980103,
+      "eval_recall": 0.4255744255744256,
+      "eval_f1": 0.42948883192455084,
+      "eval_precision_macro": 0.4114888709456067,
+      "eval_recall_macro": 0.4406004857096374,
+      "eval_f1_macro": 0.41195405579879757
+    }
+  },
+  {
+    "model": "mBERT",
+    "setting": "few-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4659096002578735,
+      "eval_accuracy": 0.3909423909423909,
+      "eval_precision": 0.44631523700137055,
+      "eval_recall": 0.3909423909423909,
+      "eval_f1": 0.3982911563894834,
+      "eval_precision_macro": 0.40099158698300474,
+      "eval_recall_macro": 0.42603966420577066,
+      "eval_f1_macro": 0.3819236293726075
+    }
+  },
+  {
+    "model": "mBERT",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.349597454071045,
+      "eval_accuracy": 0.37196137196137197,
+      "eval_precision": 0.3866085248384714,
+      "eval_recall": 0.37196137196137197,
+      "eval_f1": 0.3683806017965163,
+      "eval_precision_macro": 0.3721774137099661,
+      "eval_recall_macro": 0.3678543146180251,
+      "eval_f1_macro": 0.3605212865976401
+    }
+  },
+  {
+    "model": "mBERT",
+    "setting": "full",
+    "seed": 42,
+    "config": {
+      "n_per_class": null,
+      "epochs": 5,
+      "bs": 32,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 0.8643167018890381,
+      "eval_accuracy": 0.7259407259407259,
+      "eval_precision": 0.726423679277426,
+      "eval_recall": 0.7259407259407259,
+      "eval_f1": 0.7248326902046253,
+      "eval_precision_macro": 0.7124569778307811,
+      "eval_recall_macro": 0.6930570445897866,
+      "eval_f1_macro": 0.7010275792316892
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "five-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.5698599815368652,
+      "eval_accuracy": 0.22144522144522144,
+      "eval_precision": 0.5140604988812378,
+      "eval_recall": 0.22144522144522144,
+      "eval_f1": 0.1814207659516146,
+      "eval_precision_macro": 0.43363196349998706,
+      "eval_recall_macro": 0.3257748637809624,
+      "eval_f1_macro": 0.19915646735992448
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "five-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3262615203857422,
+      "eval_accuracy": 0.38494838494838496,
+      "eval_precision": 0.3800226481751208,
+      "eval_recall": 0.38494838494838496,
+      "eval_f1": 0.37735683113184215,
+      "eval_precision_macro": 0.3536508266107575,
+      "eval_recall_macro": 0.3343124175402052,
+      "eval_f1_macro": 0.3332823473825296
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.327826738357544,
+      "eval_accuracy": 0.34032634032634035,
+      "eval_precision": 0.3326526558162317,
+      "eval_recall": 0.34032634032634035,
+      "eval_f1": 0.26253031405351884,
+      "eval_precision_macro": 0.3291883126131703,
+      "eval_recall_macro": 0.32935406146619284,
+      "eval_f1_macro": 0.26536684985600334
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "few-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.458190679550171,
+      "eval_accuracy": 0.2597402597402597,
+      "eval_precision": 0.30976870652538735,
+      "eval_recall": 0.2597402597402597,
+      "eval_f1": 0.22990376954932001,
+      "eval_precision_macro": 0.2802144830949941,
+      "eval_recall_macro": 0.352866857510058,
+      "eval_f1_macro": 0.23517496951873657
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "few-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3507109880447388,
+      "eval_accuracy": 0.3483183483183483,
+      "eval_precision": 0.4397858845430731,
+      "eval_recall": 0.3483183483183483,
+      "eval_f1": 0.3089409251195563,
+      "eval_precision_macro": 0.4146234446481497,
+      "eval_recall_macro": 0.35311256996179763,
+      "eval_f1_macro": 0.2997925045166202
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.344604730606079,
+      "eval_accuracy": 0.323010323010323,
+      "eval_precision": 0.36451330097069795,
+      "eval_recall": 0.323010323010323,
+      "eval_f1": 0.31087584515011923,
+      "eval_precision_macro": 0.3346175904103692,
+      "eval_recall_macro": 0.3821776501436208,
+      "eval_f1_macro": 0.31154807386438604
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "full",
+    "seed": 42,
+    "config": {
+      "n_per_class": null,
+      "epochs": 5,
+      "bs": 32,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 0.7511277794837952,
+      "eval_accuracy": 0.7389277389277389,
+      "eval_precision": 0.7382444682388533,
+      "eval_recall": 0.7389277389277389,
+      "eval_f1": 0.7381942917983062,
+      "eval_precision_macro": 0.7261862773491203,
+      "eval_recall_macro": 0.7129213528422299,
+      "eval_f1_macro": 0.7188167510460821
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "five-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.298492193222046,
+      "eval_accuracy": 0.4935064935064935,
+      "eval_precision": 0.5095656632123462,
+      "eval_recall": 0.4935064935064935,
+      "eval_f1": 0.486420143152396,
+      "eval_precision_macro": 0.4851851988355492,
+      "eval_recall_macro": 0.4929354014201311,
+      "eval_f1_macro": 0.4744506344634397
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "five-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3676704168319702,
+      "eval_accuracy": 0.27705627705627706,
+      "eval_precision": 0.5281442293909089,
+      "eval_recall": 0.27705627705627706,
+      "eval_f1": 0.3141070775803076,
+      "eval_precision_macro": 0.44950876487759217,
+      "eval_recall_macro": 0.315385180106069,
+      "eval_f1_macro": 0.2875537067869111
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.2689340114593506,
+      "eval_accuracy": 0.4925074925074925,
+      "eval_precision": 0.5158440639711775,
+      "eval_recall": 0.4925074925074925,
+      "eval_f1": 0.4977323046380649,
+      "eval_precision_macro": 0.4741811288187431,
+      "eval_recall_macro": 0.503252443824304,
+      "eval_f1_macro": 0.47635150355730205
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "few-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.1649422645568848,
+      "eval_accuracy": 0.5957375957375958,
+      "eval_precision": 0.6390939750488215,
+      "eval_recall": 0.5957375957375958,
+      "eval_f1": 0.6064746222986528,
+      "eval_precision_macro": 0.5863910358392606,
+      "eval_recall_macro": 0.6124274317506336,
+      "eval_f1_macro": 0.5777527613075674
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "few-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.2432034015655518,
+      "eval_accuracy": 0.4985014985014985,
+      "eval_precision": 0.6016642236797051,
+      "eval_recall": 0.4985014985014985,
+      "eval_f1": 0.5187948466433481,
+      "eval_precision_macro": 0.5315433694792966,
+      "eval_recall_macro": 0.539750673062097,
+      "eval_f1_macro": 0.4872256401695324
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.2244001626968384,
+      "eval_accuracy": 0.4958374958374958,
+      "eval_precision": 0.5600201799030545,
+      "eval_recall": 0.4958374958374958,
+      "eval_f1": 0.5100272951868103,
+      "eval_precision_macro": 0.5032243571285996,
+      "eval_recall_macro": 0.5294515543629187,
+      "eval_f1_macro": 0.48411767827252283
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "full",
+    "seed": 42,
+    "config": {
+      "n_per_class": null,
+      "epochs": 5,
+      "bs": 32,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 0.7257300019264221,
+      "eval_accuracy": 0.7629037629037629,
+      "eval_precision": 0.761754599350373,
+      "eval_recall": 0.7629037629037629,
+      "eval_f1": 0.7617204605462898,
+      "eval_precision_macro": 0.7428622208239252,
+      "eval_recall_macro": 0.7302971220696752,
+      "eval_f1_macro": 0.7356217281525468
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "five-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3146569728851318,
+      "eval_accuracy": 0.3516483516483517,
+      "eval_precision": 0.3928591003681733,
+      "eval_recall": 0.3516483516483517,
+      "eval_f1": 0.33958199187697297,
+      "eval_precision_macro": 0.3604480580024687,
+      "eval_recall_macro": 0.3657175027143788,
+      "eval_f1_macro": 0.3306473850504348
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "five-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4616219997406006,
+      "eval_accuracy": 0.2400932400932401,
+      "eval_precision": 0.43666797343299124,
+      "eval_recall": 0.2400932400932401,
+      "eval_f1": 0.22474061413687482,
+      "eval_precision_macro": 0.3703240933511228,
+      "eval_recall_macro": 0.2977293424405205,
+      "eval_f1_macro": 0.2177773369809505
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3103151321411133,
+      "eval_accuracy": 0.35830835830835833,
+      "eval_precision": 0.3776518093404741,
+      "eval_recall": 0.35830835830835833,
+      "eval_f1": 0.33312416718519666,
+      "eval_precision_macro": 0.3789796875053125,
+      "eval_recall_macro": 0.377689839492965,
+      "eval_f1_macro": 0.34841421163464636
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "few-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.2022796869277954,
+      "eval_accuracy": 0.4572094572094572,
+      "eval_precision": 0.487044630779892,
+      "eval_recall": 0.4572094572094572,
+      "eval_f1": 0.4516324043681819,
+      "eval_precision_macro": 0.4542563368671968,
+      "eval_recall_macro": 0.48753139508996735,
+      "eval_f1_macro": 0.44177508106351016
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "few-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3189020156860352,
+      "eval_accuracy": 0.377955377955378,
+      "eval_precision": 0.44516509203362753,
+      "eval_recall": 0.377955377955378,
+      "eval_f1": 0.36174514106765376,
+      "eval_precision_macro": 0.40491432625542534,
+      "eval_recall_macro": 0.43993911571799926,
+      "eval_f1_macro": 0.3582343083974161
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.2935614585876465,
+      "eval_accuracy": 0.3802863802863803,
+      "eval_precision": 0.4279958042806376,
+      "eval_recall": 0.3802863802863803,
+      "eval_f1": 0.36621900275289554,
+      "eval_precision_macro": 0.39280395267826007,
+      "eval_recall_macro": 0.41566414182038636,
+      "eval_f1_macro": 0.36022529454140273
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "full",
+    "seed": 42,
+    "config": {
+      "n_per_class": null,
+      "epochs": 5,
+      "bs": 32,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 0.956170916557312,
+      "eval_accuracy": 0.7286047286047286,
+      "eval_precision": 0.7310893892849974,
+      "eval_recall": 0.7286047286047286,
+      "eval_f1": 0.7281772381836608,
+      "eval_precision_macro": 0.7053663669611436,
+      "eval_recall_macro": 0.705306240154882,
+      "eval_f1_macro": 0.7039807700606959
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "setting": "five-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3632190227508545,
+      "eval_accuracy": 0.3016983016983017,
+      "eval_precision": 0.3557591360148204,
+      "eval_recall": 0.3016983016983017,
+      "eval_f1": 0.2965608210120715,
+      "eval_precision_macro": 0.3188978760376277,
+      "eval_recall_macro": 0.3375647425775544,
+      "eval_f1_macro": 0.2886072579239967
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "setting": "five-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.317944884300232,
+      "eval_accuracy": 0.3752913752913753,
+      "eval_precision": 0.4173202239990347,
+      "eval_recall": 0.3752913752913753,
+      "eval_f1": 0.3656977081853114,
+      "eval_precision_macro": 0.37970031246797165,
+      "eval_recall_macro": 0.3778370083232927,
+      "eval_f1_macro": 0.3506044945384996
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3004649877548218,
+      "eval_accuracy": 0.336996336996337,
+      "eval_precision": 0.3546915116093125,
+      "eval_recall": 0.336996336996337,
+      "eval_f1": 0.33728298185806155,
+      "eval_precision_macro": 0.3661202704150941,
+      "eval_recall_macro": 0.338978867086407,
+      "eval_f1_macro": 0.3441853566957254
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "setting": "few-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3139309883117676,
+      "eval_accuracy": 0.34665334665334663,
+      "eval_precision": 0.41525388376052064,
+      "eval_recall": 0.34665334665334663,
+      "eval_f1": 0.3525841822255835,
+      "eval_precision_macro": 0.37033457473997194,
+      "eval_recall_macro": 0.38717178943796443,
+      "eval_f1_macro": 0.33975827197754266
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "setting": "few-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.317392110824585,
+      "eval_accuracy": 0.3706293706293706,
+      "eval_precision": 0.42754207950422823,
+      "eval_recall": 0.3706293706293706,
+      "eval_f1": 0.37044078019969895,
+      "eval_precision_macro": 0.3871019866615711,
+      "eval_recall_macro": 0.41734075915626156,
+      "eval_f1_macro": 0.3610126713011146
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3251314163208008,
+      "eval_accuracy": 0.3672993672993673,
+      "eval_precision": 0.3905188854997049,
+      "eval_recall": 0.3672993672993673,
+      "eval_f1": 0.3542850847417114,
+      "eval_precision_macro": 0.37724504194615754,
+      "eval_recall_macro": 0.3818054483949821,
+      "eval_f1_macro": 0.3579206827685463
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "setting": "full",
+    "seed": 42,
+    "config": {
+      "n_per_class": null,
+      "epochs": 5,
+      "bs": 32,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 0.846979022026062,
+      "eval_accuracy": 0.7196137196137196,
+      "eval_precision": 0.7194937098727263,
+      "eval_recall": 0.7196137196137196,
+      "eval_f1": 0.7187902945400035,
+      "eval_precision_macro": 0.7085765278275469,
+      "eval_recall_macro": 0.6882067346344983,
+      "eval_f1_macro": 0.6969081891103479
+    }
+  },
+  {
+    "model": "BERT",
+    "setting": "five-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.5524487495422363,
+      "eval_accuracy": 0.2514152514152514,
+      "eval_precision": 0.30701639612148635,
+      "eval_recall": 0.2514152514152514,
+      "eval_f1": 0.2140406967613805,
+      "eval_precision_macro": 0.27527183185613413,
+      "eval_recall_macro": 0.32775432037135693,
+      "eval_f1_macro": 0.21746730805906414
+    }
+  },
+  {
+    "model": "BERT",
+    "setting": "five-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4468894004821777,
+      "eval_accuracy": 0.2863802863802864,
+      "eval_precision": 0.39308777344237694,
+      "eval_recall": 0.2863802863802864,
+      "eval_f1": 0.28169532826474175,
+      "eval_precision_macro": 0.3395900862707924,
+      "eval_recall_macro": 0.29688967038487124,
+      "eval_f1_macro": 0.2667051426936584
+    }
+  },
+  {
+    "model": "BERT",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 15,
+      "bs": 4,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.3270188570022583,
+      "eval_accuracy": 0.3623043623043623,
+      "eval_precision": 0.3677976055253474,
+      "eval_recall": 0.3623043623043623,
+      "eval_f1": 0.3636604729433362,
+      "eval_precision_macro": 0.36540430320738826,
+      "eval_recall_macro": 0.34688962479338126,
+      "eval_f1_macro": 0.35389945857488947
+    }
+  },
+  {
+    "model": "BERT",
+    "setting": "few-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4240138530731201,
+      "eval_accuracy": 0.3166833166833167,
+      "eval_precision": 0.37112766234628597,
+      "eval_recall": 0.3166833166833167,
+      "eval_f1": 0.31182453451742786,
+      "eval_precision_macro": 0.3310577750663994,
+      "eval_recall_macro": 0.3806866844243435,
+      "eval_f1_macro": 0.2977066243146579
+    }
+  },
+  {
+    "model": "BERT",
+    "setting": "few-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4103100299835205,
+      "eval_accuracy": 0.2863802863802864,
+      "eval_precision": 0.33120271743912033,
+      "eval_recall": 0.2863802863802864,
+      "eval_f1": 0.26757691531387706,
+      "eval_precision_macro": 0.30242469041567566,
+      "eval_recall_macro": 0.3302968148109532,
+      "eval_f1_macro": 0.2714664451430318
+    }
+  },
+  {
+    "model": "BERT",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 20,
+      "epochs": 10,
+      "bs": 8,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 1.4211410284042358,
+      "eval_accuracy": 0.37695637695637696,
+      "eval_precision": 0.39900217158224605,
+      "eval_recall": 0.37695637695637696,
+      "eval_f1": 0.36928998000890595,
+      "eval_precision_macro": 0.3807984415649217,
+      "eval_recall_macro": 0.38498713605060736,
+      "eval_f1_macro": 0.36688696897371254
+    }
+  },
+  {
+    "model": "BERT",
+    "setting": "full",
+    "seed": 42,
+    "config": {
+      "n_per_class": null,
+      "epochs": 5,
+      "bs": 32,
+      "lr": 2e-05
+    },
+    "metrics": {
+      "eval_loss": 0.8514427542686462,
+      "eval_accuracy": 0.733932733932734,
+      "eval_precision": 0.7334773482646694,
+      "eval_recall": 0.733932733932734,
+      "eval_f1": 0.7331036105521265,
+      "eval_precision_macro": 0.7245580141144397,
+      "eval_recall_macro": 0.705186957431248,
+      "eval_f1_macro": 0.7135658009429657
+    }
+  },
+  {
+    "model": "SetFit",
+    "setting": "five-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 5,
+      "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "metrics": {
+      "eval_accuracy": 0.2627372627372627,
+      "eval_precision": 0.314023495097466,
+      "eval_recall": 0.2627372627372627,
+      "eval_f1": 0.2738026705775061,
+      "eval_precision_macro": 0.2790292738581107,
+      "eval_recall_macro": 0.2877333887614189,
+      "eval_f1_macro": 0.2583267994489331
+    }
+  },
+  {
+    "model": "SetFit",
+    "setting": "five-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 5,
+      "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "metrics": {
+      "eval_accuracy": 0.30236430236430234,
+      "eval_precision": 0.34029924567679426,
+      "eval_recall": 0.30236430236430234,
+      "eval_f1": 0.30586160972074633,
+      "eval_precision_macro": 0.2990183534986009,
+      "eval_recall_macro": 0.2977324712046868,
+      "eval_f1_macro": 0.2821542299899605
+    }
+  },
+  {
+    "model": "SetFit",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "metrics": {
+      "eval_accuracy": 0.34465534465534464,
+      "eval_precision": 0.3704107824903098,
+      "eval_recall": 0.34465534465534464,
+      "eval_f1": 0.34480845852304975,
+      "eval_precision_macro": 0.384379007106475,
+      "eval_recall_macro": 0.33226679205414744,
+      "eval_f1_macro": 0.34135826451490825
+    }
+  },
+  {
+    "model": "SetFit",
+    "setting": "few-shot",
+    "seed": 13,
+    "config": {
+      "n_per_class": 20,
+      "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "metrics": {
+      "eval_accuracy": 0.41125541125541126,
+      "eval_precision": 0.44222554983505585,
+      "eval_recall": 0.41125541125541126,
+      "eval_f1": 0.41596854701068553,
+      "eval_precision_macro": 0.40429940158473626,
+      "eval_recall_macro": 0.4351475799887946,
+      "eval_f1_macro": 0.39947847687786364
+    }
+  },
+  {
+    "model": "SetFit",
+    "setting": "few-shot",
+    "seed": 42,
+    "config": {
+      "n_per_class": 20,
+      "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "metrics": {
+      "eval_accuracy": 0.40226440226440224,
+      "eval_precision": 0.4309473877689684,
+      "eval_recall": 0.40226440226440224,
+      "eval_f1": 0.4093850246360744,
+      "eval_precision_macro": 0.39435945034484576,
+      "eval_recall_macro": 0.4119938499348498,
+      "eval_f1_macro": 0.38943633177251824
+    }
+  },
+  {
+    "model": "SetFit",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 20,
+      "base_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    },
+    "metrics": {
+      "eval_accuracy": 0.3772893772893773,
+      "eval_precision": 0.38032901666290697,
+      "eval_recall": 0.3772893772893773,
+      "eval_f1": 0.3689479623913972,
+      "eval_precision_macro": 0.3895408104857854,
+      "eval_recall_macro": 0.3844103885686121,
+      "eval_f1_macro": 0.37900026114775603
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "hpo_trial",
+    "seed": 42,
+    "config": {
+      "lr": 1e-05,
+      "bs": 16,
+      "epochs": 5
+    },
+    "metrics": {
+      "eval_loss": 0.7402732372283936,
+      "eval_accuracy": 0.7584943371085943,
+      "eval_precision": 0.757516257179838,
+      "eval_recall": 0.7584943371085943,
+      "eval_f1": 0.7570414211353923,
+      "eval_precision_macro": 0.7506269812002764,
+      "eval_recall_macro": 0.7250163700784933,
+      "eval_f1_macro": 0.735438983432488
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "hpo_trial",
+    "seed": 42,
+    "config": {
+      "lr": 2e-05,
+      "bs": 16,
+      "epochs": 5
+    },
+    "metrics": {
+      "eval_loss": 0.8817353248596191,
+      "eval_accuracy": 0.760159893404397,
+      "eval_precision": 0.7590642956586482,
+      "eval_recall": 0.760159893404397,
+      "eval_f1": 0.7593874281293473,
+      "eval_precision_macro": 0.7426395002694164,
+      "eval_recall_macro": 0.7316436926965038,
+      "eval_f1_macro": 0.7366073689829539
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "hpo_trial",
+    "seed": 42,
+    "config": {
+      "lr": 3e-05,
+      "bs": 16,
+      "epochs": 5
+    },
+    "metrics": {
+      "eval_loss": 1.0462384223937988,
+      "eval_accuracy": 0.7558294470353097,
+      "eval_precision": 0.7557889473444359,
+      "eval_recall": 0.7558294470353097,
+      "eval_f1": 0.7558041789492534,
+      "eval_precision_macro": 0.7328723238739868,
+      "eval_recall_macro": 0.732006247569417,
+      "eval_f1_macro": 0.732433995362396
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "hpo_trial",
+    "seed": 42,
+    "config": {
+      "lr": 2e-05,
+      "bs": 32,
+      "epochs": 5
+    },
+    "metrics": {
+      "eval_loss": 0.7760300040245056,
+      "eval_accuracy": 0.7551632245169887,
+      "eval_precision": 0.7541450590995908,
+      "eval_recall": 0.7551632245169887,
+      "eval_f1": 0.7543110689010292,
+      "eval_precision_macro": 0.7430843708654846,
+      "eval_recall_macro": 0.7296615577958995,
+      "eval_f1_macro": 0.7355936826678875
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "hpo_trial",
+    "seed": 42,
+    "config": {
+      "lr": 2e-05,
+      "bs": 16,
+      "epochs": 8
+    },
+    "metrics": {
+      "eval_loss": 1.3175711631774902,
+      "eval_accuracy": 0.7425049966688874,
+      "eval_precision": 0.7443261558286854,
+      "eval_recall": 0.7425049966688874,
+      "eval_f1": 0.7430597968087871,
+      "eval_precision_macro": 0.710297586519088,
+      "eval_recall_macro": 0.7189188345242784,
+      "eval_f1_macro": 0.7141429415938758
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "hpo_trial",
+    "seed": 42,
+    "config": {
+      "lr": 5e-05,
+      "bs": 32,
+      "epochs": 3
+    },
+    "metrics": {
+      "eval_loss": 0.7289380431175232,
+      "eval_accuracy": 0.7644903397734844,
+      "eval_precision": 0.7635775372148562,
+      "eval_recall": 0.7644903397734844,
+      "eval_f1": 0.7636018792907946,
+      "eval_precision_macro": 0.7543923406712071,
+      "eval_recall_macro": 0.7374563724419292,
+      "eval_f1_macro": 0.7448590350055715
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "setting": "full_tuned",
+    "seed": 42,
+    "config": {
+      "lr": 5e-05,
+      "bs": 32,
+      "epochs": 3
+    },
+    "metrics": {
+      "eval_loss": 0.6933497190475464,
+      "eval_accuracy": 0.7752247752247752,
+      "eval_precision": 0.7745323983480685,
+      "eval_recall": 0.7752247752247752,
+      "eval_f1": 0.7743339591447614,
+      "eval_precision_macro": 0.7619593483850454,
+      "eval_recall_macro": 0.7479688849685386,
+      "eval_f1_macro": 0.753986382533296
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "setting": "full_tuned",
+    "seed": 42,
+    "config": {
+      "lr": 5e-05,
+      "bs": 32,
+      "epochs": 3
+    },
+    "metrics": {
+      "eval_loss": 0.7208161354064941,
+      "eval_accuracy": 0.7389277389277389,
+      "eval_precision": 0.7384917633749046,
+      "eval_recall": 0.7389277389277389,
+      "eval_f1": 0.7379760522499326,
+      "eval_precision_macro": 0.7323197388108358,
+      "eval_recall_macro": 0.71023775541728,
+      "eval_f1_macro": 0.7196289471180576
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "setting": "full_tuned",
+    "seed": 42,
+    "config": {
+      "lr": 5e-05,
+      "bs": 32,
+      "epochs": 3
+    },
+    "metrics": {
+      "eval_loss": 0.8211023807525635,
+      "eval_accuracy": 0.7359307359307359,
+      "eval_precision": 0.7356647578005707,
+      "eval_recall": 0.7359307359307359,
+      "eval_f1": 0.735414445589618,
+      "eval_precision_macro": 0.7210536626302777,
+      "eval_recall_macro": 0.7123862216881758,
+      "eval_f1_macro": 0.7162347257219863
+    }
+  },
+  {
+    "model": "Ensemble(BanglaBERT+XLM-R+BanglishBERT)",
+    "setting": "weight_search",
+    "seed": 42,
+    "config": {
+      "weight_grid_step": 0.1
+    },
+    "metrics": {
+      "val_macro_f1": 0.755805826806212,
+      "weights": {
+        "BanglaBERT": 0.5,
+        "XLM-RoBERTa": 0.3,
+        "BanglishBERT": 0.2
+      }
+    }
+  },
+  {
+    "model": "Ensemble(BanglaBERT+XLM-R+BanglishBERT)",
+    "setting": "soft_voting_test",
+    "seed": 42,
+    "config": {
+      "weights": {
+        "BanglaBERT": 0.5,
+        "XLM-RoBERTa": 0.3,
+        "BanglishBERT": 0.2
+      }
+    },
+    "metrics": {
+      "model": "Soft-Voting Ensemble",
+      "weights": {
+        "BanglaBERT": 0.5,
+        "XLM-RoBERTa": 0.3,
+        "BanglishBERT": 0.2
+      },
+      "accuracy": 0.8058907758907759,
+      "precision": 0.8049797579728717,
+      "recall": 0.8058907758907759,
+      "f1": 0.805092336011035,
+      "precision_macro": 0.7914833863939023,
+      "recall_macro": 0.7782986211116098,
+      "f1_macro": 0.7841707150458739
+    }
+  }
+]

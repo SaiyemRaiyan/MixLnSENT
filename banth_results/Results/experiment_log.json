@@ -1,0 +1,556 @@
+[
+  {
+    "model": "mBERT",
+    "stage": "A",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 4,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.6817147135734558,
+      "eval_accuracy": 0.6265060240963856,
+      "eval_macro_accuracy": 0.4839623478983177,
+      "eval_precision_macro": 0.4775408912506832,
+      "eval_recall_macro": 0.4839623478983177,
+      "eval_f1_macro": 0.4733869286212927
+    }
+  },
+  {
+    "model": "mBERT",
+    "stage": "A",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 10,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 8,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.6877930760383606,
+      "eval_accuracy": 0.5721552878179385,
+      "eval_macro_accuracy": 0.4800405181761114,
+      "eval_precision_macro": 0.4804727860748299,
+      "eval_recall_macro": 0.4800405181761114,
+      "eval_f1_macro": 0.4801920958591153
+    }
+  },
+  {
+    "model": "mBERT",
+    "stage": "A",
+    "setting": "full",
+    "seed": 100,
+    "config": {
+      "n_per_class": null,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 32,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.05,
+      "freeze_base": false,
+      "patience": 3
+    },
+    "metrics": {
+      "eval_loss": 0.477171391248703,
+      "eval_accuracy": 0.8120481927710843,
+      "eval_macro_accuracy": 0.7673866727539045,
+      "eval_precision_macro": 0.7692338387869113,
+      "eval_recall_macro": 0.7673866727539045,
+      "eval_f1_macro": 0.7682972997047746
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "stage": "A",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 4,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.6768757104873657,
+      "eval_accuracy": 0.7156626506024096,
+      "eval_macro_accuracy": 0.5,
+      "eval_precision_macro": 0.3578313253012048,
+      "eval_recall_macro": 0.5,
+      "eval_f1_macro": 0.41713483146067415
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "stage": "A",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 10,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 8,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.687587320804596,
+      "eval_accuracy": 0.6797858099062918,
+      "eval_macro_accuracy": 0.4862846924993817,
+      "eval_precision_macro": 0.44832871927314616,
+      "eval_recall_macro": 0.4862846924993817,
+      "eval_f1_macro": 0.4348029187918736
+    }
+  },
+  {
+    "model": "XLM-RoBERTa",
+    "stage": "A",
+    "setting": "full",
+    "seed": 100,
+    "config": {
+      "n_per_class": null,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 32,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.05,
+      "freeze_base": false,
+      "patience": 3
+    },
+    "metrics": {
+      "eval_loss": 0.46497103571891785,
+      "eval_accuracy": 0.8136546184738955,
+      "eval_macro_accuracy": 0.7512000101453962,
+      "eval_precision_macro": 0.7749428783159686,
+      "eval_recall_macro": 0.7512000101453962,
+      "eval_f1_macro": 0.7611625780579304
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "stage": "A",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 4,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.6839645504951477,
+      "eval_accuracy": 0.6441767068273092,
+      "eval_macro_accuracy": 0.5232646616827408,
+      "eval_precision_macro": 0.5285720960657883,
+      "eval_recall_macro": 0.5232646616827408,
+      "eval_f1_macro": 0.5217040650406504
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "stage": "A",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 10,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 8,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.6885624527931213,
+      "eval_accuracy": 0.590896921017403,
+      "eval_macro_accuracy": 0.5061871064695924,
+      "eval_precision_macro": 0.5059846379470376,
+      "eval_recall_macro": 0.5061871064695924,
+      "eval_f1_macro": 0.5059157684334902
+    }
+  },
+  {
+    "model": "BanglaBERT",
+    "stage": "A",
+    "setting": "full",
+    "seed": 100,
+    "config": {
+      "n_per_class": null,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 32,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.05,
+      "freeze_base": false,
+      "patience": 3
+    },
+    "metrics": {
+      "eval_loss": 0.43203410506248474,
+      "eval_accuracy": 0.8232931726907631,
+      "eval_macro_accuracy": 0.7633253438338183,
+      "eval_precision_macro": 0.7877950491344301,
+      "eval_recall_macro": 0.7633253438338183,
+      "eval_f1_macro": 0.7736618033014471
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "stage": "A",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 4,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.7094099521636963,
+      "eval_accuracy": 0.2894243641231593,
+      "eval_macro_accuracy": 0.5001490105068259,
+      "eval_precision_macro": 0.5026644662248986,
+      "eval_recall_macro": 0.5001490105068259,
+      "eval_f1_macro": 0.23228048250818006
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "stage": "A",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 10,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 8,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.7006608247756958,
+      "eval_accuracy": 0.34431057563587686,
+      "eval_macro_accuracy": 0.4823121357961283,
+      "eval_precision_macro": 0.47477599763689815,
+      "eval_recall_macro": 0.4823121357961283,
+      "eval_f1_macro": 0.33599402301230274
+    }
+  },
+  {
+    "model": "BanglishBERT",
+    "stage": "A",
+    "setting": "full",
+    "seed": 100,
+    "config": {
+      "n_per_class": null,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 32,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.05,
+      "freeze_base": false,
+      "patience": 3
+    },
+    "metrics": {
+      "eval_loss": 0.46912074089050293,
+      "eval_accuracy": 0.8232931726907631,
+      "eval_macro_accuracy": 0.7817693570989239,
+      "eval_precision_macro": 0.7830608534157367,
+      "eval_recall_macro": 0.7817693570989239,
+      "eval_f1_macro": 0.7824092087395746
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "stage": "A",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 4,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.7097738981246948,
+      "eval_accuracy": 0.2883534136546185,
+      "eval_macro_accuracy": 0.49940078753638073,
+      "eval_precision_macro": 0.48819930069930073,
+      "eval_recall_macro": 0.49940078753638073,
+      "eval_f1_macro": 0.2306367105982658
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "stage": "A",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 10,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 8,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.71534264087677,
+      "eval_accuracy": 0.2854082998661312,
+      "eval_macro_accuracy": 0.4996132067695156,
+      "eval_precision_macro": 0.47542304593070106,
+      "eval_recall_macro": 0.4996132067695156,
+      "eval_f1_macro": 0.22408714383285758
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "stage": "A",
+    "setting": "full",
+    "seed": 100,
+    "config": {
+      "n_per_class": null,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 32,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.05,
+      "freeze_base": false,
+      "patience": 3
+    },
+    "metrics": {
+      "eval_loss": 0.4716809093952179,
+      "eval_accuracy": 0.8123159303882196,
+      "eval_macro_accuracy": 0.7556560583867551,
+      "eval_precision_macro": 0.7715016554123566,
+      "eval_recall_macro": 0.7556560583867551,
+      "eval_f1_macro": 0.7626897258134058
+    }
+  },
+  {
+    "model": "BERT",
+    "stage": "A",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 5,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 4,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.6277123093605042,
+      "eval_accuracy": 0.7186077643908969,
+      "eval_macro_accuracy": 0.5148265454291819,
+      "eval_precision_macro": 0.6457236933218846,
+      "eval_recall_macro": 0.5148265454291819,
+      "eval_f1_macro": 0.45640859396994127
+    }
+  },
+  {
+    "model": "BERT",
+    "stage": "A",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_class": 10,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 8,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.1,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.6441550254821777,
+      "eval_accuracy": 0.7065595716198125,
+      "eval_macro_accuracy": 0.5217317557242228,
+      "eval_precision_macro": 0.575908457775109,
+      "eval_recall_macro": 0.5217317557242228,
+      "eval_f1_macro": 0.4877763852295569
+    }
+  },
+  {
+    "model": "BERT",
+    "stage": "A",
+    "setting": "full",
+    "seed": 100,
+    "config": {
+      "n_per_class": null,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 32,
+      "weight_decay": 0.01,
+      "label_smoothing_factor": 0.05,
+      "freeze_base": false,
+      "patience": 3
+    },
+    "metrics": {
+      "eval_loss": 0.47445836663246155,
+      "eval_accuracy": 0.8125836680053548,
+      "eval_macro_accuracy": 0.75981567083262,
+      "eval_precision_macro": 0.77105120218033,
+      "eval_recall_macro": 0.75981567083262,
+      "eval_f1_macro": 0.7649774407108514
+    }
+  },
+  {
+    "model": "mBERT",
+    "stage": "B",
+    "setting": "five-shot",
+    "seed": 100,
+    "config": {
+      "n_per_label": 5,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 4,
+      "weight_decay": 0.01,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.601269543170929,
+      "eval_precision_macro": 0.16164759651837862,
+      "eval_recall_macro": 0.16009480642990367,
+      "eval_f1_macro": 0.14266350650202936,
+      "eval_precision_micro": 0.5592841163310962,
+      "eval_recall_micro": 0.6028938906752411,
+      "eval_f1_micro": 0.5802707930367504,
+      "eval_subset_accuracy": 0.3879472693032015,
+      "eval_accuracy": 0.3879472693032015,
+      "eval_hamming_loss": 0.1277071563088512,
+      "eval_f1_Political": 0.03225806451612903,
+      "eval_precision_Political": 0.2857142857142857,
+      "eval_recall_Political": 0.017094017094017096,
+      "eval_f1_Religious": 0.0,
+      "eval_precision_Religious": 0.0,
+      "eval_recall_Religious": 0.0,
+      "eval_f1_Gender": 0.0,
+      "eval_precision_Gender": 0.0,
+      "eval_recall_Gender": 0.0,
+      "eval_f1_Personal Offense": 0.7907780979827089,
+      "eval_precision_Personal Offense": 0.6725490196078432,
+      "eval_recall_Personal Offense": 0.9594405594405594,
+      "eval_f1_Abusive/Violence": 0.20921985815602837,
+      "eval_precision_Abusive/Violence": 0.22692307692307692,
+      "eval_recall_Abusive/Violence": 0.19407894736842105,
+      "eval_f1_Origin": 0.043478260869565216,
+      "eval_precision_Origin": 0.043478260869565216,
+      "eval_recall_Origin": 0.043478260869565216,
+      "eval_f1_Body Shaming": 0.0,
+      "eval_precision_Body Shaming": 0.0,
+      "eval_recall_Body Shaming": 0.0,
+      "eval_f1_Misc": 0.06557377049180328,
+      "eval_precision_Misc": 0.06451612903225806,
+      "eval_recall_Misc": 0.06666666666666667,
+      "eval_runtime": 9.261,
+      "eval_samples_per_second": 114.674,
+      "eval_steps_per_second": 28.723
+    }
+  },
+  {
+    "model": "mBERT",
+    "stage": "B",
+    "setting": "few-shot",
+    "seed": 100,
+    "config": {
+      "n_per_label": 20,
+      "epochs": 3,
+      "lr": 2e-05,
+      "bs": 8,
+      "weight_decay": 0.01,
+      "freeze_base": true,
+      "unfreeze_last_n": 2,
+      "patience": 5
+    },
+    "metrics": {
+      "eval_loss": 0.515537440776825,
+      "eval_precision_macro": 0.08247422680412371,
+      "eval_recall_macro": 0.011188811188811189,
+      "eval_f1_macro": 0.019704433497536946,
+      "eval_precision_micro": 0.6597938144329897,
+      "eval_recall_micro": 0.05144694533762058,
+      "eval_f1_micro": 0.09545115585384041,
+      "eval_subset_accuracy": 0.04048964218455744,
+      "eval_accuracy": 0.04048964218455744,
+      "eval_hamming_loss": 0.14277306967984935,
+      "eval_f1_Political": 0.0,
+      "eval_precision_Political": 0.0,
+      "eval_recall_Political": 0.0,
+      "eval_f1_Religious": 0.0,
+      "eval_precision_Religious": 0.0,
+      "eval_recall_Religious": 0.0,
+      "eval_f1_Gender": 0.0,
+      "eval_precision_Gender": 0.0,
+      "eval_recall_Gender": 0.0,
+      "eval_f1_Personal Offense": 0.15763546798029557,
+      "eval_precision_Personal Offense": 0.6597938144329897,
+      "eval_recall_Personal Offense": 0.08951048951048951,
+      "eval_f1_Abusive/Violence": 0.0,
+      "eval_precision_Abusive/Violence": 0.0,
+      "eval_recall_Abusive/Violence": 0.0,
+      "eval_f1_Origin": 0.0,
+      "eval_precision_Origin": 0.0,
+      "eval_recall_Origin": 0.0,
+      "eval_f1_Body Shaming": 0.0,
+      "eval_precision_Body Shaming": 0.0,
+      "eval_recall_Body Shaming": 0.0,
+      "eval_f1_Misc": 0.0,
+      "eval_precision_Misc": 0.0,
+      "eval_recall_Misc": 0.0,
+      "eval_runtime": 8.3721,
+      "eval_samples_per_second": 126.85,
+      "eval_steps_per_second": 15.886
+    }
+  }
+]

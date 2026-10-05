@@ -1,0 +1,2 @@
+model,weights,accuracy,precision,recall,f1,precision_macro,recall_macro,f1_macro
+Soft-Voting Ensemble,"{'BanglaBERT': np.float64(0.5), 'XLM-RoBERTa': np.float64(0.3), 'BanglishBERT': np.float64(0.2)}",0.805890776,0.804979758,0.805890776,0.805092336,0.791483386,0.778298621,0.784170715
