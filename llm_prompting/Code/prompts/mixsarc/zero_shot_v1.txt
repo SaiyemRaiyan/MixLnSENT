@@ -1,0 +1,8 @@
+Assign four binary labels (0 or 1) to each given sentence.
+Label Definitions:
+- Sarcastic: Verbal irony with a mocking or insincere tone.
+- Humorous: Intended to amuse or provoke laughter.
+- Offensive: Contains insulting or identity-targeted language.
+- Vulgar: Contains obscene or sexually explicit language.
+Output only valid JSON with no explanations.
+Format: {"Humorous":0,"Sarcastic":0,"Offensive":0,"Vulgar":0}

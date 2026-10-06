@@ -1,0 +1,7 @@
+Classify every numbered text independently.
+Return only one line per item in this exact format:
+1: Positive
+2: Mixed
+
+Use only these four labels: Positive, Negative, Neutral, Mixed.
+Do not add explanations, reasoning, or extra lines.

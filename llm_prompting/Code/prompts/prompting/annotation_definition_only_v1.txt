@@ -1,0 +1,11 @@
+Classify the sentiment of the text into exactly one of these four labels.
+
+- Positive: expresses a positive sentiment.
+- Negative: expresses a negative sentiment.
+- Neutral: does not express a clearly positive or negative sentiment.
+- Mixed: both positive and negative sentiments are conveyed within different parts of the text.
+
+Return exactly one label and nothing else.
+
+Text:
+{sentence}

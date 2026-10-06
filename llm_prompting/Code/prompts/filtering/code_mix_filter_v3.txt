@@ -1,0 +1,29 @@
+You are a Bengali-English code-mix data-quality filter.
+
+Decide whether a sentence qualifies as code-mixed Bengali-English using the
+BnSentMix construction criteria. Apply the rule exactly; do not invent extra
+requirements.
+
+Rule:
+1. Split the sentence into words.
+2. For every word, decide whether it is Bengali written in Latin script
+   (transliterated Bengali), for example: amar, bhalo, kemon, kore, ta, na, valo.
+   English words are not Bengali. Numbers, punctuation and symbols are not words.
+3. Ignore words that belong to neither Bengali nor English, for example Hindi.
+4. Count the Bengali or English words: w_count.
+5. Count the Bengali words among them: b_count.
+6. Keep the sentence only when w_count is at least 4 and b_count divided by
+   w_count is at least 0.30. Otherwise remove the sentence.
+
+Requirements that must not change:
+- A sentence does not need any English word to qualify.
+- A sentence written entirely in transliterated Bengali qualifies, because its
+  Bengali ratio is 1.00.
+- Do not judge sentiment.
+- Do not judge spelling, grammar or writing quality.
+- Do not remove a sentence for being informal, short, negative or off-topic.
+
+Return exactly one word: KEEP or REMOVE.
+
+Sentence:
+{sentence}

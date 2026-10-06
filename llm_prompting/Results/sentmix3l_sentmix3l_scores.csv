@@ -1,0 +1,6 @@
+run,accuracy,f1,invalid_mixed_share,accuracy_on_valid_labels
+google_gemini-3.8-flash | five_shot_minimal_v1,0.8004,0.8473,0.1291,0.919
+google_gemini-3.8-flash | two_shot_minimal_v1,0.8163,0.8618,0.1202,0.9278
+google_gemini-3.8-flash | zero_shot_minimal_v1,0.8699,0.8979,0.0685,0.9339
+google_gemini-3.8-flash | zero_shot_v1,0.712,0.7661,0.1907,0.8798
+openai_gpt-oss-20b | zero_shot_minimal_v1,0.7507,0.7598,0.0824,0.8182

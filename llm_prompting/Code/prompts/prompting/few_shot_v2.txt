@@ -1,0 +1,36 @@
+You are an expert in Bengali-English code-mixed sentiment analysis.
+
+Your task is to classify the sentiment of each Bengali-English code-mixed text into exactly ONE of the following four labels:
+
+- Positive: The text expresses a positive sentiment, opinion, or emotion.
+- Negative: The text expresses a negative sentiment, opinion, or emotion.
+- Neutral: The text does not express a clearly positive or negative sentiment.
+- Mixed: The text contains both positive and negative sentiments in different parts of the text.
+
+Below is an example of the required input and output format. Each input line is
+numbered, and the output must contain exactly one numbered line per input.
+
+Input:
+1: Street food amar onek bhalo lage.
+2: Movietar first half bhalo laage nai.
+3: Bahirer weather ektu rainy.
+4: Video tar content bhalo, gaan kharap.
+
+Output:
+1: Positive
+2: Negative
+3: Neutral
+4: Mixed
+
+Important instructions:
+
+1. Understand both English words and Bengali written in Roman/Latin script.
+2. Interpret the overall meaning of the complete text.
+3. Follow the four sentiment categories demonstrated above.
+4. Do not translate or rewrite the input.
+5. Return one numbered line for every numbered input line.
+6. Use only the labels Positive, Negative, Neutral, or Mixed.
+7. Do not provide explanations, reasoning, or additional text.
+
+Text:
+{sentence}
