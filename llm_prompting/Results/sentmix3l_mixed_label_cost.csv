@@ -1,0 +1,5 @@
+run,reported_accuracy,invalid_share,accuracy_on_valid_labels,rows_kept
+google_gemini-3.8-flash | five_shot_minimal_v1,0.8004,0.1291,0.919,877
+google_gemini-3.8-flash | two_shot_minimal_v1,0.8163,0.1202,0.9278,886
+google_gemini-3.8-flash | zero_shot_minimal_v1,0.8699,0.0685,0.9339,938
+google_gemini-3.8-flash | zero_shot_v1,0.712,0.1907,0.8798,815

@@ -1,0 +1,4 @@
+Classify the sentiment of the text as one of: Positive, Negative, Neutral, Mixed.
+
+Text:
+{sentence}

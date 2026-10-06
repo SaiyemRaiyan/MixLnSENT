@@ -1,0 +1,90 @@
+{
+  "experiment": "definition_compliance_audit",
+  "rows": 20015,
+  "rule_accuracy_all": 0.4636,
+  "per_label_all": {
+    "Positive": {
+      "precision": 0.5342,
+      "recall": 0.5713,
+      "f1": 0.5521,
+      "support": 5353,
+      "fired": 5724
+    },
+    "Negative": {
+      "precision": 0.7274,
+      "recall": 0.1068,
+      "f1": 0.1862,
+      "support": 6172,
+      "fired": 906
+    },
+    "Neutral": {
+      "precision": 0.4204,
+      "recall": 0.8193,
+      "f1": 0.5557,
+      "support": 6619,
+      "fired": 12900
+    },
+    "Mixed": {
+      "precision": 0.2866,
+      "recall": 0.0743,
+      "f1": 0.118,
+      "support": 1871,
+      "fired": 485
+    }
+  },
+  "per_label_test": {
+    "Positive": {
+      "precision": 0.5495,
+      "recall": 0.5878,
+      "f1": 0.568,
+      "support": 803,
+      "fired": 859
+    },
+    "Negative": {
+      "precision": 0.7551,
+      "recall": 0.1199,
+      "f1": 0.2069,
+      "support": 926,
+      "fired": 147
+    },
+    "Neutral": {
+      "precision": 0.4293,
+      "recall": 0.8288,
+      "f1": 0.5656,
+      "support": 993,
+      "fired": 1917
+    },
+    "Mixed": {
+      "precision": 0.3,
+      "recall": 0.0854,
+      "f1": 0.133,
+      "support": 281,
+      "fired": 80
+    }
+  },
+  "markers": {
+    "contrast_marker_strict": {
+      "fires": 1823,
+      "precision": 0.5831,
+      "recall": 0.5681,
+      "f1": 0.5755
+    },
+    "contrast_marker_loose": {
+      "fires": 3543,
+      "precision": 0.3353,
+      "recall": 0.635,
+      "f1": 0.4389
+    },
+    "opposing_sentiment_cues": {
+      "fires": 485,
+      "precision": 0.2866,
+      "recall": 0.0743,
+      "f1": 0.118
+    }
+  },
+  "marker_overlap": {
+    "contrast_only": 1681,
+    "opposing_only": 343,
+    "both": 142
+  }
+}

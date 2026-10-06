@@ -1,0 +1,12 @@
+datasets
+pandas
+scikit-learn
+scipy
+matplotlib
+jupyter
+ipykernel
+google-genai
+python-dotenv
+groq
+openai
+huggingface_hub

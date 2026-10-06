@@ -1,0 +1,6 @@
+run,complete,exact_match,macro_f1,per_label_f1,rows
+DeepSeek-V4.1,True,0.3182,0.4358,"{""Humorous"": 0.7142, ""Offensive"": 0.25, ""Sarcastic"": 0.2701, ""Vulgar"": 0.5089}",1364
+GLM-5.3,True,0.3402,0.4159,"{""Humorous"": 0.6603, ""Offensive"": 0.2202, ""Sarcastic"": 0.2895, ""Vulgar"": 0.4937}",1364
+GPT-5.6-Sol,True,0.3534,0.4307,"{""Humorous"": 0.6925, ""Offensive"": 0.2468, ""Sarcastic"": 0.2862, ""Vulgar"": 0.4972}",1364
+Gemini-3.8-Flash,True,0.2911,0.46,"{""Humorous"": 0.7156, ""Offensive"": 0.2111, ""Sarcastic"": 0.3468, ""Vulgar"": 0.5667}",1364
+Qwen3.8-27B,True,0.3944,0.3861,"{""Humorous"": 0.6369, ""Offensive"": 0.2689, ""Sarcastic"": 0.2162, ""Vulgar"": 0.4225}",1364

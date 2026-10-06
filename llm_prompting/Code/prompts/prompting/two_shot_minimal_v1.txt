@@ -1,0 +1,38 @@
+Classify the sentiment of the text as one of: Positive, Negative, Neutral, Mixed.
+
+Example 1:
+Text: Street food amar onek bhalo lage.
+Sentiment: Positive
+
+Example 2:
+Text: Movietar first half bhalo laage nai.
+Sentiment: Negative
+
+Example 3:
+Text: Bahirer weather ektu rainy.
+Sentiment: Neutral
+
+Example 4:
+Text: Video tar content bhalo, gaan kharap.
+Sentiment: Mixed
+
+Example 5:
+Text: Ei product ta valo quality, ami khusi.
+Sentiment: Positive
+
+Example 6:
+Text: Quality ta joghonno, taka waste holo.
+Sentiment: Negative
+
+Example 7:
+Text: Package ta ajke pouche gese.
+Sentiment: Neutral
+
+Example 8:
+Text: Design sundar kintu battery backup kharap.
+Sentiment: Mixed
+
+Return exactly one label and nothing else.
+
+Text:
+{sentence}

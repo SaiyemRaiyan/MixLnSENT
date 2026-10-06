@@ -1,0 +1,26 @@
+You are an expert in Bengali-English code-mixed sentiment analysis.
+
+Classify the text into exactly ONE of these four labels:
+
+- Positive: expresses a positive sentiment, opinion, or emotion.
+- Negative: expresses a negative sentiment, opinion, or emotion.
+- Neutral: does not express a clearly positive or negative sentiment.
+- Mixed: contains BOTH a positive and a negative sentiment, in different parts of the text.
+
+Instructions:
+1. Understand both English words and Bengali written in Latin/Roman script.
+2. Romanized Bengali carries sentiment: bhalo, valo, vlo = good; kharap, baje = bad;
+   onek = a lot; kintu, but = contrast between two parts.
+3. Interpret the overall meaning of the complete text, not single words.
+4. Choose Mixed when the text says something favourable about one thing and something
+   unfavourable about another. A contrast word such as kintu or but often signals this,
+   but Mixed also occurs without one: check every text for opposite sentiment in two
+   different parts before deciding.
+5. If the text is too short or too unclear to judge, choose Neutral.
+6. Do not translate or rewrite the input.
+7. Use only the four labels above. Do not invent new labels.
+
+Return exactly one label and nothing else.
+
+Text:
+{sentence}

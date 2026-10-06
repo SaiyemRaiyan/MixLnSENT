@@ -1,0 +1,7 @@
+Label every numbered sentence independently.
+Return only one line per sentence, each a JSON object in this exact format:
+{"index":1,"Humorous":0,"Sarcastic":0,"Offensive":0,"Vulgar":0}
+{"index":2,"Humorous":1,"Sarcastic":1,"Offensive":0,"Vulgar":0}
+Use the sentence's own number as "index". Every value must be 0 or 1, and every
+sentence must appear exactly once.
+Do not add explanations, reasoning, markdown fences, or extra lines.

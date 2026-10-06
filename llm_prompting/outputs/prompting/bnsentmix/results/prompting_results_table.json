@@ -1,0 +1,393 @@
+{
+  "groq | openai/gpt-oss-120b | zero_shot_v1": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "prompt": "zero_shot_v1",
+    "rows": 20015,
+    "predictions_file": "groq_openai_gpt-oss-120b_sentiment_zero_shot_v1.jsonl",
+    "metrics": {
+      "weighted": {
+        "accuracy": 0.705071,
+        "precision": 0.72506,
+        "recall": 0.705071,
+        "f1": 0.702557
+      },
+      "macro": {
+        "precision": 0.726191,
+        "recall": 0.677903,
+        "f1": 0.69059
+      },
+      "per_class": {
+        "Positive": {
+          "precision": 0.784013,
+          "recall": 0.743882,
+          "f1": 0.76342,
+          "support": 5353
+        },
+        "Negative": {
+          "precision": 0.796384,
+          "recall": 0.570966,
+          "f1": 0.665094,
+          "support": 6172
+        },
+        "Neutral": {
+          "precision": 0.615436,
+          "recall": 0.840913,
+          "f1": 0.71072,
+          "support": 6619
+        },
+        "Mixed": {
+          "precision": 0.70893,
+          "recall": 0.555852,
+          "f1": 0.623128,
+          "support": 1871
+        }
+      },
+      "predicted_counts": {
+        "Positive": 5079,
+        "Negative": 4425,
+        "Neutral": 9044,
+        "Mixed": 1467
+      },
+      "unparsed_or_unknown": 0
+    }
+  },
+  "groq | qwen/qwen3.8-27b | zero_shot_v1": {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "zero_shot_v1",
+    "rows": 20015,
+    "predictions_file": "groq_qwen_qwen3.8-27b_sentiment_zero_shot_v1.jsonl",
+    "metrics": {
+      "weighted": {
+        "accuracy": 0.794354,
+        "precision": 0.794504,
+        "recall": 0.794354,
+        "f1": 0.793153
+      },
+      "macro": {
+        "precision": 0.783797,
+        "recall": 0.757134,
+        "f1": 0.768178
+      },
+      "per_class": {
+        "Positive": {
+          "precision": 0.831648,
+          "recall": 0.783486,
+          "f1": 0.806849,
+          "support": 5353
+        },
+        "Negative": {
+          "precision": 0.829106,
+          "recall": 0.847375,
+          "f1": 0.838141,
+          "support": 6172
+        },
+        "Neutral": {
+          "precision": 0.752798,
+          "recall": 0.812963,
+          "f1": 0.781724,
+          "support": 6619
+        },
+        "Mixed": {
+          "precision": 0.721636,
+          "recall": 0.584714,
+          "f1": 0.645999,
+          "support": 1871
+        }
+      },
+      "predicted_counts": {
+        "Positive": 5043,
+        "Negative": 6308,
+        "Neutral": 7148,
+        "Mixed": 1516
+      },
+      "unparsed_or_unknown": 0
+    }
+  },
+  "commandcode | meta/muse-spark-1.3-contributor | zero_shot_v1": {
+    "provider": "commandcode",
+    "model": "meta/muse-spark-1.3-contributor",
+    "prompt": "zero_shot_v1",
+    "rows": 20015,
+    "predictions_file": "commandcode_meta_muse-spark-1.3-contributor_sentiment_zero_shot_v1.jsonl",
+    "metrics": {
+      "weighted": {
+        "accuracy": 0.775818,
+        "precision": 0.776523,
+        "recall": 0.775818,
+        "f1": 0.776014
+      },
+      "macro": {
+        "precision": 0.754203,
+        "recall": 0.757073,
+        "f1": 0.755489
+      },
+      "per_class": {
+        "Positive": {
+          "precision": 0.78682,
+          "recall": 0.816365,
+          "f1": 0.80132,
+          "support": 5353
+        },
+        "Negative": {
+          "precision": 0.831236,
+          "recall": 0.802819,
+          "f1": 0.816781,
+          "support": 6172
+        },
+        "Neutral": {
+          "precision": 0.754591,
+          "recall": 0.751171,
+          "f1": 0.752877,
+          "support": 6619
+        },
+        "Mixed": {
+          "precision": 0.644165,
+          "recall": 0.657937,
+          "f1": 0.650978,
+          "support": 1871
+        }
+      },
+      "predicted_counts": {
+        "Positive": 5554,
+        "Negative": 5961,
+        "Neutral": 6589,
+        "Mixed": 1911
+      },
+      "unparsed_or_unknown": 0
+    }
+  },
+  "huggingface | meta-llama/Llama-3.1-8B-Instruct | few_shot_v1": {
+    "provider": "huggingface",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "prompt": "few_shot_v1",
+    "rows": 20015,
+    "predictions_file": "huggingface_meta-llama_Llama-3.1-8B-Instruct_sentiment_few_shot_v1.jsonl",
+    "metrics": {
+      "weighted": {
+        "accuracy": 0.598001,
+        "precision": 0.633453,
+        "recall": 0.598001,
+        "f1": 0.568982
+      },
+      "macro": {
+        "precision": 0.599184,
+        "recall": 0.517149,
+        "f1": 0.498204
+      },
+      "per_class": {
+        "Positive": {
+          "precision": 0.638875,
+          "recall": 0.941902,
+          "f1": 0.761344,
+          "support": 5353
+        },
+        "Negative": {
+          "precision": 0.858244,
+          "recall": 0.414938,
+          "f1": 0.559415,
+          "support": 6172
+        },
+        "Neutral": {
+          "precision": 0.479864,
+          "recall": 0.639069,
+          "f1": 0.54814,
+          "support": 6619
+        },
+        "Mixed": {
+          "precision": 0.419753,
+          "recall": 0.072688,
+          "f1": 0.123918,
+          "support": 1871
+        }
+      },
+      "predicted_counts": {
+        "Positive": 7892,
+        "Negative": 2984,
+        "Neutral": 8815,
+        "Mixed": 324
+      },
+      "unparsed_or_unknown": 0
+    }
+  },
+  "huggingface | meta-llama/Llama-3.1-8B-Instruct | few_shot_v2": {
+    "provider": "huggingface",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "prompt": "few_shot_v2",
+    "rows": 20015,
+    "predictions_file": "huggingface_meta-llama_Llama-3.1-8B-Instruct_sentiment_few_shot_v2.jsonl",
+    "metrics": {
+      "weighted": {
+        "accuracy": 0.605146,
+        "precision": 0.657537,
+        "recall": 0.605146,
+        "f1": 0.573192
+      },
+      "macro": {
+        "precision": 0.608745,
+        "recall": 0.518517,
+        "f1": 0.499641
+      },
+      "per_class": {
+        "Positive": {
+          "precision": 0.697944,
+          "recall": 0.90043,
+          "f1": 0.786361,
+          "support": 5353
+        },
+        "Negative": {
+          "precision": 0.906212,
+          "recall": 0.361633,
+          "f1": 0.516966,
+          "support": 6172
+        },
+        "Neutral": {
+          "precision": 0.479549,
+          "recall": 0.745732,
+          "f1": 0.583728,
+          "support": 6619
+        },
+        "Mixed": {
+          "precision": 0.351275,
+          "recall": 0.066275,
+          "f1": 0.111511,
+          "support": 1871
+        }
+      },
+      "predicted_counts": {
+        "Positive": 6906,
+        "Negative": 2463,
+        "Neutral": 10293,
+        "Mixed": 353
+      },
+      "unparsed_or_unknown": 0
+    }
+  },
+  "huggingface | meta-llama/Llama-3.1-8B-Instruct | zero_shot_v1": {
+    "provider": "huggingface",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "prompt": "zero_shot_v1",
+    "rows": 20015,
+    "predictions_file": "huggingface_meta-llama_Llama-3.1-8B-Instruct_sentiment_zero_shot_v1.jsonl",
+    "metrics": {
+      "weighted": {
+        "accuracy": 0.670397,
+        "precision": 0.694059,
+        "recall": 0.670397,
+        "f1": 0.643098
+      },
+      "macro": {
+        "precision": 0.663485,
+        "recall": 0.580014,
+        "f1": 0.567058
+      },
+      "per_class": {
+        "Positive": {
+          "precision": 0.677251,
+          "recall": 0.94433,
+          "f1": 0.788796,
+          "support": 5353
+        },
+        "Negative": {
+          "precision": 0.874055,
+          "recall": 0.486876,
+          "f1": 0.62539,
+          "support": 6172
+        },
+        "Neutral": {
+          "precision": 0.591525,
+          "recall": 0.778214,
+          "f1": 0.672147,
+          "support": 6619
+        },
+        "Mixed": {
+          "precision": 0.511111,
+          "recall": 0.110636,
+          "f1": 0.181898,
+          "support": 1871
+        }
+      },
+      "predicted_counts": {
+        "Positive": 7464,
+        "Negative": 3438,
+        "Neutral": 8708,
+        "Mixed": 405
+      },
+      "unparsed_or_unknown": 0
+    }
+  },
+  "huggingface | meta-llama/Llama-3.3-70B-Instruct | zero_shot_v1": {
+    "provider": "huggingface",
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "prompt": "zero_shot_v1",
+    "rows": 2600,
+    "predictions_file": "huggingface_meta-llama_Llama-3.3-70B-Instruct_sentiment_zero_shot_v1.jsonl",
+    "metrics": {
+      "weighted": {
+        "accuracy": 0.08014,
+        "precision": 0.301427,
+        "recall": 0.08014,
+        "f1": 0.118431
+      },
+      "macro": {
+        "precision": 0.325323,
+        "recall": 0.123612,
+        "f1": 0.17015
+      },
+      "per_class": {
+        "Positive": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5353
+        },
+        "Negative": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 6172
+        },
+        "Neutral": {
+          "precision": 0.629667,
+          "recall": 0.094274,
+          "f1": 0.163995,
+          "support": 6619
+        },
+        "Mixed": {
+          "precision": 0.996948,
+          "recall": 0.523784,
+          "f1": 0.686755,
+          "support": 1871
+        }
+      },
+      "predicted_counts": {
+        "Positive": 424,
+        "Negative": 202,
+        "Neutral": 991,
+        "Mixed": 983
+      },
+      "unparsed_or_unknown": 17415
+    }
+  },
+  "published_reference": {
+    "bert": {
+      "accuracy": 0.695,
+      "precision": 0.683,
+      "recall": 0.694,
+      "f1": 0.688
+    },
+    "mbert": {
+      "accuracy": 0.694,
+      "precision": 0.675,
+      "recall": 0.694,
+      "f1": 0.684
+    },
+    "svm": {
+      "accuracy": 0.66,
+      "precision": 0.637,
+      "recall": 0.66,
+      "f1": 0.648
+    }
+  }
+}
