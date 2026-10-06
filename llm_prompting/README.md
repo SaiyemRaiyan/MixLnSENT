@@ -1,10 +1,12 @@
-# LLM prompting (zero-shot, no training)
+# Prompt engineering (zero-shot, no training)
 
-Prompt-engineering results for the same datasets this benchmark fine-tunes on. The
-experiments here train nothing: a frozen model is asked to label each sentence, and the
-same prompt is reused across every model and corpus so the comparison is like for like.
+Prompt-based work on the same corpora this benchmark fine-tunes on. Nothing here
+trains a model: a frozen model is asked to label each sentence, and one prompt is
+reused across every model and corpus so the comparison is like for like.
 
-## Experiments
+## Two experiments
+
+**1. Classification (`07_prompting_zero_shot.ipynb`, `08_prompting_results.ipynb`)**
 
 | Dataset | Rows | Task | Labels |
 |---|---|---|---|
@@ -12,19 +14,30 @@ same prompt is reused across every model and corpus so the comparison is like fo
 | SentMix-3L | 1,007 (test-only) | single-label sentiment | Positive, Negative, Neutral |
 | MixSarc | 1,364 (test) | multi-label implicit meaning | Humorous, Sarcastic, Offensive, Vulgar |
 
-Three conditions are run on every model: zero-shot, two-shot and five-shot, counted as
-examples *per label*, so two-shot is 8 examples across four labels and five-shot is 20.
-A second prompt family carries full label definitions and lexicon cues, against a
-minimal family that states the task in a single line.
+Zero-shot, two-shot and five-shot on every model, counted as examples *per label*, so
+two-shot is 8 examples across four labels and five-shot is 20. A second prompt family
+carries full label definitions and lexicon cues, against a minimal family that states
+the task in a single line.
+
+**2. Dataset filtering (`01` through `06`)**
+
+Prompt-based re-filtering of BnSentMix: a model is asked to keep or drop each training
+sentence on language-quality grounds, and the filtered corpus is benchmarked against
+the original. `06_filtering_benchmark.ipynb` reports the before/after comparison.
 
 ## Layout
 
 ```
 llm_prompting/
 ├── Code/                 the pipeline and the notebooks that drive it
-├── Results/              one CSV per dataset and model
-└── Results_Graph/        per-dataset charts
+├── Results/              aggregated tables, one CSV per dataset and model
+├── Results_Graph/        per-dataset charts
+└── outputs/              full run artifacts: every prediction and metric file
 ```
+
+`outputs/` is included so the numbers are auditable rather than asserted. Each
+`outputs/prompting/<dataset>/predictions/*.jsonl` holds one record per row with the
+sentence index and the model's answer, and `metrics/` holds the scored summaries.
 
 ## Running it
 
@@ -59,7 +72,7 @@ rather than the thousands.
 all-zero vector on 88-99% of rows, which drives every per-label score to near zero
 while exact-match stays near the rate of unlabelled rows (21.5%). This was tested three
 ways -- unbatched, with a different format example, and with reasoning enabled -- and
-holds in all three, so it is reported rather than treated as a harness fault.
+holds in all three, so it is reported as a model result rather than a harness fault.
 
 **Two accuracy figures that disagree are both reported.** On MixSarc, exact-match
 accuracy and macro F1 rank models differently, because one rewards confidence and the

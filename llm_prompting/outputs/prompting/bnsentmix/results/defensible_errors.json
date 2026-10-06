@@ -1,0 +1,23 @@
+{
+  "experiment": "defensible_errors",
+  "run": {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "prompt": "zero_shot_v1",
+    "scope": "test"
+  },
+  "rows": 3003,
+  "raw_accuracy": 0.7556,
+  "accuracy_gold_agrees_with_definition": 0.8559,
+  "accuracy_gold_contradicts_definition": 0.6643,
+  "rows_definition_consistent": 1430,
+  "rows_definition_violating": 1573,
+  "errors": 734,
+  "defensible_errors": 365,
+  "defensible_share_of_errors": 0.4973,
+  "accuracy_if_defensible_counted_correct": 0.8771,
+  "marker_rows": 274,
+  "marker_gold_mixed": 150,
+  "marker_model_mixed": 161,
+  "marker_disputed": 28
+}

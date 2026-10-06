@@ -1,0 +1,62 @@
+{
+  "DeepSeek-V4.1": {
+    "complete": true,
+    "exact_match": 0.3182,
+    "macro_f1": 0.4358,
+    "per_label_f1": {
+      "Humorous": 0.7142,
+      "Offensive": 0.25,
+      "Sarcastic": 0.2701,
+      "Vulgar": 0.5089
+    },
+    "rows": 1364
+  },
+  "GLM-5.3": {
+    "complete": true,
+    "exact_match": 0.3402,
+    "macro_f1": 0.4159,
+    "per_label_f1": {
+      "Humorous": 0.6603,
+      "Offensive": 0.2202,
+      "Sarcastic": 0.2895,
+      "Vulgar": 0.4937
+    },
+    "rows": 1364
+  },
+  "GPT-5.6-Sol": {
+    "complete": true,
+    "exact_match": 0.3534,
+    "macro_f1": 0.4307,
+    "per_label_f1": {
+      "Humorous": 0.6925,
+      "Offensive": 0.2468,
+      "Sarcastic": 0.2862,
+      "Vulgar": 0.4972
+    },
+    "rows": 1364
+  },
+  "Gemini-3.8-Flash": {
+    "complete": true,
+    "exact_match": 0.2911,
+    "macro_f1": 0.46,
+    "per_label_f1": {
+      "Humorous": 0.7156,
+      "Offensive": 0.2111,
+      "Sarcastic": 0.3468,
+      "Vulgar": 0.5667
+    },
+    "rows": 1364
+  },
+  "Qwen3.8-27B": {
+    "complete": true,
+    "exact_match": 0.3944,
+    "macro_f1": 0.3861,
+    "per_label_f1": {
+      "Humorous": 0.6369,
+      "Offensive": 0.2689,
+      "Sarcastic": 0.2162,
+      "Vulgar": 0.4225
+    },
+    "rows": 1364
+  }
+}

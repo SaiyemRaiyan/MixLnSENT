@@ -1,0 +1,32 @@
+{
+  "google_gemini-3.8-flash | five_shot_minimal_v1": {
+    "accuracy": 0.8004,
+    "f1": 0.8473,
+    "invalid_mixed_share": 0.1291,
+    "accuracy_on_valid_labels": 0.919
+  },
+  "google_gemini-3.8-flash | two_shot_minimal_v1": {
+    "accuracy": 0.8163,
+    "f1": 0.8618,
+    "invalid_mixed_share": 0.1202,
+    "accuracy_on_valid_labels": 0.9278
+  },
+  "google_gemini-3.8-flash | zero_shot_minimal_v1": {
+    "accuracy": 0.8699,
+    "f1": 0.8979,
+    "invalid_mixed_share": 0.0685,
+    "accuracy_on_valid_labels": 0.9339
+  },
+  "google_gemini-3.8-flash | zero_shot_v1": {
+    "accuracy": 0.712,
+    "f1": 0.7661,
+    "invalid_mixed_share": 0.1907,
+    "accuracy_on_valid_labels": 0.8798
+  },
+  "openai_gpt-oss-20b | zero_shot_minimal_v1": {
+    "accuracy": 0.7507,
+    "f1": 0.7598,
+    "invalid_mixed_share": 0.0824,
+    "accuracy_on_valid_labels": 0.8182
+  }
+}
