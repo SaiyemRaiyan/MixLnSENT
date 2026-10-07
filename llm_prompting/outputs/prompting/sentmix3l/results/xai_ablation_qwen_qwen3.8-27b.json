@@ -146,5 +146,42 @@
         "support": 0
       }
     }
+  },
+  "zero_shot_ablate_drop_rule3_v1": {
+    "name": "Drop Rule 3",
+    "description": "Removes sentence-level interpretation rule",
+    "accuracy": 0.665343,
+    "delta_acc": -0.0009930000000000216,
+    "f1": 0.684946,
+    "delta_f1": -0.004268999999999967,
+    "invalid_rate": 0.16881827209533268,
+    "delta_invalid": 0.003972194637537257,
+    "accuracy_on_valid": 0.8004778972520908,
+    "per_class": {
+      "Positive": {
+        "precision": 0.729055,
+        "recall": 0.97381,
+        "f1": 0.833843,
+        "support": 420
+      },
+      "Negative": {
+        "precision": 0.959459,
+        "recall": 0.603399,
+        "f1": 0.74087,
+        "support": 353
+      },
+      "Neutral": {
+        "precision": 0.888889,
+        "recall": 0.205128,
+        "f1": 0.333333,
+        "support": 234
+      },
+      "Mixed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    }
   }
 }

@@ -168,6 +168,8 @@ def finalize_dev_gate(provider: str = "groq", model: str = "qwen/qwen3.8-27b") -
     for current_provider, current_model in models:
         slug = current_model.replace("/", "_")
         path = LABELS_DIR / "E0" / f"dev__{current_provider}__{slug}.json"
+        if not path.exists():
+            continue
         payload = json.loads(path.read_text(encoding="utf-8"))
         result = payload["G1"]
         result["noisy"] = result["agreement_A_A2"]["agreement"] < 0.90

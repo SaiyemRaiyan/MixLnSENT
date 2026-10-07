@@ -43,8 +43,8 @@ MODEL_SPECS = {
         "qwen/qwen3.8-27b": {
             # reasoning is switched off entirely here, so a small output budget suffices.
             # measured: 35 rows works, 40 rows (~5.2k tokens) is rejected with 413
-            "max_tokens": 1024,
-            "batch_size": 35,
+            "max_tokens": 80,
+            "batch_size": 5,
             "options": {"reasoning_effort": "none", "reasoning_format": "hidden"},
         },
         "allam-2-7b": {

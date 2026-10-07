@@ -12,5 +12,5 @@
   "expected_rows": 7930,
   "variant_id_sha256": "d53ee1ae15b90cb86a81e4144c3bd55954c2f6e3945678a66eabd0b8759ae68d",
   "input_sha256": "1cbe465ce7c251cd22ef9b3984eb1ee972bf4b317cf1742bcd391cda34b56cf1",
-  "complete": false
+  "complete": true
 }

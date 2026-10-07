@@ -1,0 +1,10 @@
+{
+  "coalition_budget": 96,
+  "planted_cue": {
+    "n": 97,
+    "top1_rate": 0.865979381443299
+  },
+  "changed_rows": 97,
+  "unstable_baselines": 5,
+  "cue_predictions": 200
+}

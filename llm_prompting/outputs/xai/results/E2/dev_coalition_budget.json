@@ -1,0 +1,8 @@
+{
+  "selected_budget": 96,
+  "budgets": {
+    "96": {
+      "mean_top3_jaccard": 0.865979381443299
+    }
+  }
+}

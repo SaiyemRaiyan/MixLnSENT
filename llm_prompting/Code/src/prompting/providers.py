@@ -91,17 +91,24 @@ def is_request_too_large(error):
     return False
 
 
-RETRY_HINT = re.compile(r"try again in ([\d.]+)\s*s", re.IGNORECASE)
+RETRY_HINT_SEC = re.compile(r"try again in ([\d.]+)\s*s", re.IGNORECASE)
+RETRY_HINT_MIN_SEC = re.compile(r"try again in (?:(\d+)m)?([\d.]+)\s*s", re.IGNORECASE)
 
 
 def retry_after_seconds(error):
     """Seconds to wait before retrying, when the provider states one.
 
-    A per-minute allowance resets on a clock the provider names in the message, so
-    waiting exactly that long is both sufficient and the cheapest response.
+    Parses both simple second formats ('try again in 2.5s') and compound minute-second
+    formats ('try again in 24m10.656s').
     """
-    match = RETRY_HINT.search(str(error))
-    return float(match.group(1)) if match else None
+    text = str(error)
+    match_ms = RETRY_HINT_MIN_SEC.search(text)
+    if match_ms:
+        minutes = float(match_ms.group(1)) if match_ms.group(1) else 0.0
+        seconds = float(match_ms.group(2)) if match_ms.group(2) else 0.0
+        return minutes * 60.0 + seconds
+    match_s = RETRY_HINT_SEC.search(text)
+    return float(match_s.group(1)) if match_s else None
 
 
 def is_rate_limit_error(error):
@@ -341,20 +348,26 @@ def build_sender(provider, model, log=print):
                     return _commandcode_anthropic_send(keys[index], model, prompt)
                 return SENDERS[provider](client_at(index), model, prompt)
             except Exception as error:
-                if not is_rate_limit_error(error) or index + 1 >= len(keys):
+                if not is_rate_limit_error(error):
                     raise
                 # Rotate first, even when the provider suggests a wait. Keys on the
                 # free tier sit in separate organisations, which the errors name, so
                 # each carries its own allowance and moving to the next one resumes
-                # work immediately. Measured on allam-2-7b, rotating reaches roughly
-                # twice the row rate of waiting on a single key. Only once every key
-                # has been tried does the wait become the right move, and the runner
-                # handles that using the delay the provider reports.
-                state["index"] = index + 1
-                log(
-                    f"  key {index + 1}/{len(keys)} out of quota, "
-                    f"switching to key {index + 2}/{len(keys)}"
-                )
+                # work immediately.
+                if index + 1 < len(keys):
+                    state["index"] = index + 1
+                    log(
+                        f"  key {index + 1}/{len(keys)} out of quota, "
+                        f"switching to key {index + 2}/{len(keys)}"
+                    )
+                else:
+                    hint = retry_after_seconds(error)
+                    wait_delay = min(15, max(5, (hint + 1) if hint is not None else 10))
+                    log(
+                        f"  cycled through all {len(keys)} keys; cooling down {wait_delay:.0f}s before resuming at key 1..."
+                    )
+                    time.sleep(wait_delay)
+                    state["index"] = 0
 
     send.key_count = len(keys)
     send.current_key = lambda: state["index"] + 1

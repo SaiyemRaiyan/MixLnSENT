@@ -36,7 +36,7 @@ def main():
     provider = "groq"
     model = "qwen/qwen3.8-27b"
     scope = "full"
-    batch_size = 20  # Safe size for Groq 8k TPM on SentMix-3L
+    batch_size = 5  # Small token footprint to avoid Groq daily token reservation caps
 
     dataset = load("sentmix3l")
     print(f"Loaded {dataset.name} with {len(dataset)} rows.")
@@ -45,22 +45,29 @@ def main():
 
     for idx, prompt_name in enumerate(PROMPTS, 1):
         print(f"\n[{idx}/{len(PROMPTS)}] Executing ablation: {prompt_name}")
-        t0 = time.time()
-        try:
-            path, done = run_scope(
-                provider=provider,
-                model=model,
-                prompt_name=prompt_name,
-                scope=scope,
-                dataset=dataset,
-                batch_size=batch_size,
-                log=lambda *a: print(*a, flush=True),
-            )
-            elapsed = time.time() - t0
-            print(f"-> Completed {prompt_name}: {len(done)} records in {elapsed:.1f}s")
-        except Exception as e:
-            print(f"-> ERROR on {prompt_name}: {e}")
-            raise e
+        while True:
+            t0 = time.time()
+            try:
+                path, done = run_scope(
+                    provider=provider,
+                    model=model,
+                    prompt_name=prompt_name,
+                    scope=scope,
+                    dataset=dataset,
+                    batch_size=batch_size,
+                    log=lambda *a: print(*a, flush=True),
+                )
+                elapsed = time.time() - t0
+                print(f"-> Completed {prompt_name}: {len(done)} records in {elapsed:.1f}s")
+                break
+            except Exception as e:
+                err_text = str(e)
+                if "quota" in err_text.lower() or "rate" in err_text.lower() or "429" in err_text:
+                    print(f"-> Quota limit reached ({e}). Pausing for 60s to let token buckets replenish...")
+                    time.sleep(60)
+                else:
+                    print(f"-> Unexpected error on {prompt_name}: {e}")
+                    raise e
 
     print("\nAll prompt ablations finished successfully!")
 
