@@ -36,16 +36,16 @@
     "rows": 1007
   },
   "allam-2-7b | zero_shot_minimal_v1": {
-    "accuracy": 0.6,
-    "accuracy_on_valid_labels": 0.8824,
+    "accuracy": 0.3425,
+    "accuracy_on_valid_labels": 0.5103,
     "ci": [
-      0.4,
-      0.8
+      0.2989,
+      0.3885
     ],
     "complete": false,
-    "f1": 0.75,
-    "invalid_mixed_share": 0.32,
-    "rows": 25
+    "f1": 0.3395,
+    "invalid_mixed_share": 0.3287,
+    "rows": 435
   },
   "deepseek_deepseek-v4.1-flash | five_shot_minimal_v1": {
     "accuracy": 0.7507,
@@ -155,6 +155,18 @@
     "invalid_mixed_share": 0.1599,
     "rows": 1007
   },
+  "gpt-5.6-sol | zero_shot_ablate_drop_mixed_def_v1": {
+    "accuracy": 0.6157,
+    "accuracy_on_valid_labels": 0.8115,
+    "ci": [
+      0.5859,
+      0.6455
+    ],
+    "complete": true,
+    "f1": 0.6524,
+    "invalid_mixed_share": 0.2413,
+    "rows": 1007
+  },
   "gpt-5.6-sol | zero_shot_minimal_v1": {
     "accuracy": 0.6872,
     "accuracy_on_valid_labels": 0.8219,
@@ -165,6 +177,18 @@
     "complete": true,
     "f1": 0.7075,
     "invalid_mixed_share": 0.1639,
+    "rows": 1007
+  },
+  "gpt-5.6-sol | zero_shot_v1": {
+    "accuracy": 0.6207,
+    "accuracy_on_valid_labels": 0.8075,
+    "ci": [
+      0.5899,
+      0.6504
+    ],
+    "complete": true,
+    "f1": 0.6515,
+    "invalid_mixed_share": 0.2314,
     "rows": 1007
   },
   "huggingface_meta-llama_Llama-3.3-70B-Instruct | zero_shot_minimal_v1": {

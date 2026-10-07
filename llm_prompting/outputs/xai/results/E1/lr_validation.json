@@ -1,0 +1,1809 @@
+{
+  "n": 300,
+  "identifiable_n": 71,
+  "unidentifiable_n": 229,
+  "median_spearman": 0.6833637196362471,
+  "top1_agreement": 0.676056338028169,
+  "per_sentence": [
+    {
+      "index": 11872,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7758,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11447,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15061,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7107,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16156,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19535,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 8962,
+      "identifiable": true,
+      "spearman": 0.6383625164535184,
+      "top1_agreement": false
+    },
+    {
+      "index": 10432,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19125,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11803,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19484,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12947,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7752,
+      "identifiable": true,
+      "spearman": 0.6708203932499369,
+      "top1_agreement": false
+    },
+    {
+      "index": 13169,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14969,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 13249,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6242,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10631,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9140,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7383,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15587,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19517,
+      "identifiable": true,
+      "spearman": 0.8215838362577492,
+      "top1_agreement": false
+    },
+    {
+      "index": 11610,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12685,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10242,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16569,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12819,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11805,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1034,
+      "identifiable": true,
+      "spearman": 0.5222329678670935,
+      "top1_agreement": true
+    },
+    {
+      "index": 2863,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7568,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14289,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11086,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1371,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14034,
+      "identifiable": true,
+      "spearman": 0.7071067811865475,
+      "top1_agreement": true
+    },
+    {
+      "index": 15837,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1992,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6031,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 13596,
+      "identifiable": true,
+      "spearman": 0.7745966692414834,
+      "top1_agreement": true
+    },
+    {
+      "index": 16559,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14175,
+      "identifiable": true,
+      "spearman": 0.7637626158259734,
+      "top1_agreement": true
+    },
+    {
+      "index": 9632,
+      "identifiable": true,
+      "spearman": 0.8660254037844386,
+      "top1_agreement": true
+    },
+    {
+      "index": 12218,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12505,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 8293,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2987,
+      "identifiable": true,
+      "spearman": 0.790569415042095,
+      "top1_agreement": true
+    },
+    {
+      "index": 14558,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18969,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 8794,
+      "identifiable": true,
+      "spearman": 0.6179143806533247,
+      "top1_agreement": true
+    },
+    {
+      "index": 16831,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19450,
+      "identifiable": true,
+      "spearman": 0.6276459144608479,
+      "top1_agreement": true
+    },
+    {
+      "index": 15835,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19879,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7421,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12125,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6229,
+      "identifiable": true,
+      "spearman": 0.7071067811865475,
+      "top1_agreement": true
+    },
+    {
+      "index": 16990,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7828,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 413,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15830,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12699,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7330,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 13023,
+      "identifiable": true,
+      "spearman": 0.8633316946034313,
+      "top1_agreement": false
+    },
+    {
+      "index": 11028,
+      "identifiable": true,
+      "spearman": 0.8593378488473193,
+      "top1_agreement": false
+    },
+    {
+      "index": 4410,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15036,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2943,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15703,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2389,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1490,
+      "identifiable": true,
+      "spearman": 0.6642111641550715,
+      "top1_agreement": true
+    },
+    {
+      "index": 9304,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7804,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1046,
+      "identifiable": true,
+      "spearman": 0.6911239904699881,
+      "top1_agreement": false
+    },
+    {
+      "index": 16364,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19221,
+      "identifiable": true,
+      "spearman": 0.5222329678670935,
+      "top1_agreement": true
+    },
+    {
+      "index": 11354,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6034,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15889,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3783,
+      "identifiable": true,
+      "spearman": 0.3651483716701107,
+      "top1_agreement": true
+    },
+    {
+      "index": 9185,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3456,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11436,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 13839,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10193,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 515,
+      "identifiable": true,
+      "spearman": 0.5595028849441883,
+      "top1_agreement": true
+    },
+    {
+      "index": 10247,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5731,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9095,
+      "identifiable": true,
+      "spearman": 0.36939442566909375,
+      "top1_agreement": true
+    },
+    {
+      "index": 5617,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6167,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14772,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15319,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18926,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5793,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10058,
+      "identifiable": true,
+      "spearman": 0.6738905255061629,
+      "top1_agreement": false
+    },
+    {
+      "index": 8783,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11638,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19647,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4636,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9437,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2528,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11881,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9766,
+      "identifiable": true,
+      "spearman": 0.5388159060803247,
+      "top1_agreement": true
+    },
+    {
+      "index": 2257,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6490,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 8361,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9673,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 727,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12543,
+      "identifiable": true,
+      "spearman": 0.7818473421696082,
+      "top1_agreement": false
+    },
+    {
+      "index": 493,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19865,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4362,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19374,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6393,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9348,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4431,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18277,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15668,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 198,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16887,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15871,
+      "identifiable": true,
+      "spearman": 0.7071067811865475,
+      "top1_agreement": true
+    },
+    {
+      "index": 14404,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5009,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5165,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3810,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15015,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18529,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2158,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9326,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19491,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12016,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6345,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5542,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1099,
+      "identifiable": true,
+      "spearman": 0.8660254037844388,
+      "top1_agreement": false
+    },
+    {
+      "index": 9536,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19921,
+      "identifiable": true,
+      "spearman": 0.5500190982169267,
+      "top1_agreement": true
+    },
+    {
+      "index": 10517,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9892,
+      "identifiable": true,
+      "spearman": 0.7245688373094719,
+      "top1_agreement": false
+    },
+    {
+      "index": 812,
+      "identifiable": true,
+      "spearman": 0.3535533905932738,
+      "top1_agreement": true
+    },
+    {
+      "index": 8118,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11485,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7849,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5094,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19751,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 8120,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9180,
+      "identifiable": true,
+      "spearman": 0.7438389754364192,
+      "top1_agreement": false
+    },
+    {
+      "index": 4457,
+      "identifiable": true,
+      "spearman": 0.8660254037844386,
+      "top1_agreement": true
+    },
+    {
+      "index": 11939,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1854,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 17268,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16615,
+      "identifiable": true,
+      "spearman": 0.666037438903373,
+      "top1_agreement": false
+    },
+    {
+      "index": 6907,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9163,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 17032,
+      "identifiable": true,
+      "spearman": 0.7745966692414834,
+      "top1_agreement": true
+    },
+    {
+      "index": 16526,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10123,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3048,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 8974,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3896,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12609,
+      "identifiable": true,
+      "spearman": 0.7604691006293735,
+      "top1_agreement": true
+    },
+    {
+      "index": 4699,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4008,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18573,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10992,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2358,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5328,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3041,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2425,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16775,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3352,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12438,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1953,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 348,
+      "identifiable": true,
+      "spearman": 0.3403382373905639,
+      "top1_agreement": true
+    },
+    {
+      "index": 7584,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14866,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16391,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5283,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10308,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19766,
+      "identifiable": true,
+      "spearman": 0.6546536707079772,
+      "top1_agreement": true
+    },
+    {
+      "index": 3147,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2283,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5763,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16354,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2539,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3741,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3086,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2580,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7116,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12555,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3431,
+      "identifiable": true,
+      "spearman": 0.7559289460184545,
+      "top1_agreement": true
+    },
+    {
+      "index": 1476,
+      "identifiable": true,
+      "spearman": 0.34099716973523675,
+      "top1_agreement": true
+    },
+    {
+      "index": 3812,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1053,
+      "identifiable": true,
+      "spearman": 0.8660254037844386,
+      "top1_agreement": false
+    },
+    {
+      "index": 13546,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 6988,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12603,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11676,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 13554,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5181,
+      "identifiable": true,
+      "spearman": 0.7369555266607762,
+      "top1_agreement": true
+    },
+    {
+      "index": 1031,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19184,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4998,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1616,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16952,
+      "identifiable": true,
+      "spearman": 0.6642111641550715,
+      "top1_agreement": true
+    },
+    {
+      "index": 9092,
+      "identifiable": true,
+      "spearman": 0.6215815605080611,
+      "top1_agreement": false
+    },
+    {
+      "index": 4719,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18635,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12032,
+      "identifiable": true,
+      "spearman": 0.7745966692414834,
+      "top1_agreement": true
+    },
+    {
+      "index": 3561,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12545,
+      "identifiable": true,
+      "spearman": 0.6956083436402525,
+      "top1_agreement": true
+    },
+    {
+      "index": 6336,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1805,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18122,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18619,
+      "identifiable": true,
+      "spearman": 0.7745966692414834,
+      "top1_agreement": true
+    },
+    {
+      "index": 17520,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19933,
+      "identifiable": true,
+      "spearman": 0.8164965809277261,
+      "top1_agreement": true
+    },
+    {
+      "index": 11808,
+      "identifiable": true,
+      "spearman": 0.6179143806533247,
+      "top1_agreement": true
+    },
+    {
+      "index": 17710,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 17931,
+      "identifiable": true,
+      "spearman": 0.3908973453720509,
+      "top1_agreement": true
+    },
+    {
+      "index": 6806,
+      "identifiable": true,
+      "spearman": 0.7071067811865475,
+      "top1_agreement": true
+    },
+    {
+      "index": 17849,
+      "identifiable": true,
+      "spearman": 0.8885233166386386,
+      "top1_agreement": true
+    },
+    {
+      "index": 1910,
+      "identifiable": true,
+      "spearman": 0.5773502691896258,
+      "top1_agreement": true
+    },
+    {
+      "index": 3735,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10761,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1635,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 784,
+      "identifiable": true,
+      "spearman": 0.3434014098717226,
+      "top1_agreement": true
+    },
+    {
+      "index": 16936,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12931,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15507,
+      "identifiable": true,
+      "spearman": 0.43975115889395894,
+      "top1_agreement": false
+    },
+    {
+      "index": 1872,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14740,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18283,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5444,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9082,
+      "identifiable": true,
+      "spearman": 0.7245688373094719,
+      "top1_agreement": false
+    },
+    {
+      "index": 3496,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16583,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1506,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 17183,
+      "identifiable": true,
+      "spearman": 0.5011402523360258,
+      "top1_agreement": true
+    },
+    {
+      "index": 18310,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 1039,
+      "identifiable": true,
+      "spearman": 0.554438752580718,
+      "top1_agreement": false
+    },
+    {
+      "index": 2589,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 17028,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3001,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18204,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10172,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14677,
+      "identifiable": true,
+      "spearman": 0.6833637196362471,
+      "top1_agreement": false
+    },
+    {
+      "index": 7239,
+      "identifiable": true,
+      "spearman": 0.8660254037844386,
+      "top1_agreement": true
+    },
+    {
+      "index": 5639,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4836,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4455,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5954,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4119,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2254,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5084,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16655,
+      "identifiable": true,
+      "spearman": 0.7071067811865475,
+      "top1_agreement": true
+    },
+    {
+      "index": 5396,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18834,
+      "identifiable": true,
+      "spearman": 0.8212553997720053,
+      "top1_agreement": false
+    },
+    {
+      "index": 11768,
+      "identifiable": true,
+      "spearman": 0.5477225575051661,
+      "top1_agreement": true
+    },
+    {
+      "index": 12169,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2923,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18154,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7992,
+      "identifiable": true,
+      "spearman": 0.7745966692414834,
+      "top1_agreement": true
+    },
+    {
+      "index": 18245,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 7292,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16937,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14201,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12606,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 9320,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 11938,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19763,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5418,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18266,
+      "identifiable": true,
+      "spearman": 0.6210590034081188,
+      "top1_agreement": true
+    },
+    {
+      "index": 17113,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 991,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14959,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 13752,
+      "identifiable": true,
+      "spearman": 0.4791296457028143,
+      "top1_agreement": true
+    },
+    {
+      "index": 14493,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 14230,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5904,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 4341,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 15659,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 19362,
+      "identifiable": true,
+      "spearman": 0.34001020045902297,
+      "top1_agreement": true
+    },
+    {
+      "index": 3406,
+      "identifiable": true,
+      "spearman": 0.8660254037844388,
+      "top1_agreement": false
+    },
+    {
+      "index": 15065,
+      "identifiable": true,
+      "spearman": 0.6354889093022426,
+      "top1_agreement": true
+    },
+    {
+      "index": 10516,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 8578,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 13533,
+      "identifiable": true,
+      "spearman": 0.6546536707079772,
+      "top1_agreement": true
+    },
+    {
+      "index": 15,
+      "identifiable": true,
+      "spearman": 0.3857583749052298,
+      "top1_agreement": false
+    },
+    {
+      "index": 15309,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16511,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 2768,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 3338,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 16446,
+      "identifiable": true,
+      "spearman": 0.6267831705280088,
+      "top1_agreement": false
+    },
+    {
+      "index": 648,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 12443,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 18810,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 10669,
+      "identifiable": true,
+      "spearman": 0.7071067811865475,
+      "top1_agreement": true
+    },
+    {
+      "index": 5598,
+      "identifiable": false,
+      "spearman": null,
+      "top1_agreement": null
+    },
+    {
+      "index": 5417,
+      "identifiable": true,
+      "spearman": 0.7319250547113999,
+      "top1_agreement": false
+    }
+  ]
+}

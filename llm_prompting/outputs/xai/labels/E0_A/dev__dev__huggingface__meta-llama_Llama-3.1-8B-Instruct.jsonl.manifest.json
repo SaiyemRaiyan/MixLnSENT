@@ -1,0 +1,16 @@
+{
+  "provider": "huggingface",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "prompt": "sentiment_zero_shot_minimal_v1",
+  "scope": "dev",
+  "batch_size": 200,
+  "shuffle_seed": null,
+  "prompt_sha256": "3d2bd947121dd714577e9b52eacda84fdd28e9a075134775d7a19c03cf0122f6",
+  "batch_format_sha256": "03dc237e769911c2ef2fc5d03644752f38a2403e1b1b5688a1e098c6b00f0a04",
+  "git_commit": "4cd05d4c1c6c6f3c81702911f9f6d2274eff81f8",
+  "created_utc": "2026-10-07T12:50:56+00:00",
+  "expected_rows": 585,
+  "variant_id_sha256": "e00b87d78a87c5b86b7c4e6c8907ae98f1fe7a3f4df123270f8caa02396e0f21",
+  "input_sha256": "ab4d5fa912a324d4da65801f58721e4f01a977a38bbe2dd6d709cbd2338fb12a",
+  "complete": false
+}

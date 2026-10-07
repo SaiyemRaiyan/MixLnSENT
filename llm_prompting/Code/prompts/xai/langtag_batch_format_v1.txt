@@ -1,0 +1,3 @@
+Return exactly one line per token as:
+1: EN
+Use the token number and exactly one of EN, BN-roman, OTHER. Do not add explanations or extra lines.

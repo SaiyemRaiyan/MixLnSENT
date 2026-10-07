@@ -1,0 +1,3 @@
+Return exactly one line per item as:
+1: word | word | word
+Use the item number, then a colon, then up to three copied words separated by vertical bars. Do not include any other text.

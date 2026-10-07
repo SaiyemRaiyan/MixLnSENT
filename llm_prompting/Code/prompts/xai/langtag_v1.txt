@@ -1,0 +1,5 @@
+For every numbered whitespace token, classify its language as EN, BN-roman, or OTHER.
+EN means an English word; BN-roman means Bengali written in Latin/Roman script; OTHER means numbers, punctuation, or a token that is neither.
+Preserve the supplied token text. Return one line per item using only the allowed tags.
+
+{items}

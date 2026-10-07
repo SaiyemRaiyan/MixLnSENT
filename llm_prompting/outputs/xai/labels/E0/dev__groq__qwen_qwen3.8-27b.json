@@ -1,0 +1,20 @@
+{
+  "G1": {
+    "agreement_A_A2": {
+      "n": 585,
+      "agreement": 1.0,
+      "cohen_kappa": 1.0
+    },
+    "agreement_A_B": {
+      "n": 585,
+      "agreement": 0.8854700854700854,
+      "cohen_kappa": 0.8345853555602447
+    },
+    "agreement_A_C": {
+      "n": 585,
+      "agreement": 0.764102564102564,
+      "cohen_kappa": 0.6584230679726671
+    },
+    "epsilon": 0.0
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "zero_shot_v1": {
+    "name": "Baseline (Full 7 Rules)",
+    "description": "Intact elaborate prompt",
+    "accuracy": 0.666336,
+    "delta_acc": 0.0,
+    "f1": 0.689215,
+    "delta_f1": 0.0,
+    "invalid_rate": 0.16484607745779542,
+    "delta_invalid": 0.0,
+    "accuracy_on_valid": 0.797859690844233,
+    "per_class": {
+      "Positive": {
+        "precision": 0.724868,
+        "recall": 0.978571,
+        "f1": 0.832827,
+        "support": 420
+      },
+      "Negative": {
+        "precision": 0.957346,
+        "recall": 0.572238,
+        "f1": 0.716312,
+        "support": 353
+      },
+      "Neutral": {
+        "precision": 0.920635,
+        "recall": 0.247863,
+        "f1": 0.390572,
+        "support": 234
+      },
+      "Mixed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    }
+  },
+  "zero_shot_ablate_drop_mixed_def_v1": {
+    "name": "Drop Mixed Def",
+    "description": "Removes definition of Mixed",
+    "accuracy": 0.677259,
+    "delta_acc": 0.010923000000000016,
+    "f1": 0.698432,
+    "delta_f1": 0.00921700000000003,
+    "invalid_rate": 0.15590863952333664,
+    "delta_invalid": -0.00893743793445878,
+    "accuracy_on_valid": 0.8023529411764706,
+    "per_class": {
+      "Positive": {
+        "precision": 0.731922,
+        "recall": 0.988095,
+        "f1": 0.840932,
+        "support": 420
+      },
+      "Negative": {
+        "precision": 0.958333,
+        "recall": 0.586402,
+        "f1": 0.727592,
+        "support": 353
+      },
+      "Neutral": {
+        "precision": 0.895522,
+        "recall": 0.25641,
+        "f1": 0.398671,
+        "support": 234
+      },
+      "Mixed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    }
+  },
+  "zero_shot_ablate_drop_rule1_v1": {
+    "name": "Drop Rule 1",
+    "description": "Removes bilingual understanding rule",
+    "accuracy": 0.673287,
+    "delta_acc": 0.0069509999999999295,
+    "f1": 0.692574,
+    "delta_f1": 0.003359000000000001,
+    "invalid_rate": 0.1608738828202582,
+    "delta_invalid": -0.00397219463753723,
+    "accuracy_on_valid": 0.8023668639053254,
+    "per_class": {
+      "Positive": {
+        "precision": 0.731794,
+        "recall": 0.980952,
+        "f1": 0.83825,
+        "support": 420
+      },
+      "Negative": {
+        "precision": 0.959641,
+        "recall": 0.606232,
+        "f1": 0.743056,
+        "support": 353
+      },
+      "Neutral": {
+        "precision": 0.881356,
+        "recall": 0.222222,
+        "f1": 0.354949,
+        "support": 234
+      },
+      "Mixed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    }
+  }
+}

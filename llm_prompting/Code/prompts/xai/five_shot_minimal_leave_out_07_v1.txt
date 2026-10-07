@@ -1,0 +1,82 @@
+Classify the sentiment of the text as one of: Positive, Negative, Neutral, Mixed.
+
+Example 1:
+Text: Street food amar onek bhalo lage.
+Sentiment: Positive
+
+Example 2:
+Text: Movietar first half bhalo laage nai.
+Sentiment: Negative
+
+Example 3:
+Text: Bahirer weather ektu rainy.
+Sentiment: Neutral
+
+Example 4:
+Text: Video tar content bhalo, gaan kharap.
+Sentiment: Mixed
+
+Example 5:
+Text: Ei product ta valo quality, ami khusi.
+Sentiment: Positive
+
+Example 6:
+Text: Quality ta joghonno, taka waste holo.
+Sentiment: Negative
+
+Example 8:
+Text: Design sundar kintu battery backup kharap.
+Sentiment: Mixed
+
+Example 9:
+Text: Delivery onek fast silo, thanks vaiya.
+Sentiment: Positive
+
+Example 10:
+Text: Customer service khub kharap experience silo.
+Sentiment: Negative
+
+Example 11:
+Text: Video ta 10 minute er silo.
+Sentiment: Neutral
+
+Example 12:
+Text: Prothom half boring, second half interesting silo.
+Sentiment: Mixed
+
+Example 13:
+Text: Acting darun silo, sokoler dekha uchit.
+Sentiment: Positive
+
+Example 14:
+Text: Ei phone ta 2 din pore nosto hoye geche.
+Sentiment: Negative
+
+Example 15:
+Text: Ei shop ta market er kachei.
+Sentiment: Neutral
+
+Example 16:
+Text: Price kom kintu quality o thik temon na.
+Sentiment: Mixed
+
+Example 17:
+Text: Price ta reasonable ar service o excellent.
+Sentiment: Positive
+
+Example 18:
+Text: Video ta boring, time waste na dekhle valo hoto.
+Sentiment: Negative
+
+Example 19:
+Text: Order dilam gotokal, ekhono ashe nai.
+Sentiment: Neutral
+
+Example 20:
+Text: Packaging valo silo but product ta damage hoye eshechilo.
+Sentiment: Mixed
+
+Return exactly one label and nothing else.
+
+Text:
+{sentence}

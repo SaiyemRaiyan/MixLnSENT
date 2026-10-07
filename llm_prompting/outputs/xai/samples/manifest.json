@@ -1,0 +1,78 @@
+{
+  "seed": 42,
+  "split_seed": 42,
+  "max_tokens": 30,
+  "test_source_rows": 3003,
+  "xai800": {
+    "file": "samples\\xai800.jsonl",
+    "sha256": "04c75d51a72bc2193d692e8c581a7f4f2371a3248532d391759e36f3b0c95353",
+    "rows": 800,
+    "class_counts": {
+      "0": 200,
+      "1": 200,
+      "2": 200,
+      "3": 200
+    },
+    "source": "fixed stratified test split",
+    "eligible_excluded_fraction": 0.042957,
+    "eligible_rows_before_class_cap": 2874,
+    "rows_not_sampled_after_class_cap": 2074,
+    "duplicate_summary": {
+      "rows": 20015,
+      "unique_normalized": 19753,
+      "duplicate_groups": 258,
+      "rows_in_duplicate_groups": 520,
+      "conflict_groups": 19,
+      "rows_in_conflict_groups": 38
+    }
+  },
+  "xai200": {
+    "file": "samples\\xai200.jsonl",
+    "sha256": "fcfc9fa9da5c96d53f48893ae858d54d38407052caaba194857e136e0d2fac37",
+    "rows": 200,
+    "class_counts": {
+      "0": 50,
+      "1": 50,
+      "2": 50,
+      "3": 50
+    },
+    "source": "seeded subset of xai800"
+  },
+  "gemini300": {
+    "file": "samples\\gemini300.jsonl",
+    "sha256": "56acce35a82f5d6740b6895624126471a16fa41b6d69bd332a668790b76301e9",
+    "rows": 300,
+    "class_counts": {
+      "0": 75,
+      "1": 75,
+      "2": 75,
+      "3": 75
+    },
+    "source": "seeded subset of xai800"
+  },
+  "gemini_noise100": {
+    "file": "samples\\gemini_noise100.jsonl",
+    "sha256": "f88bd7ca433af82f44d77d6c1aec2156a1f32f9290f369923cbff36e84e64543",
+    "rows": 100,
+    "class_counts": {
+      "0": 25,
+      "1": 25,
+      "2": 25,
+      "3": 25
+    },
+    "source": "seeded subset of xai800"
+  },
+  "dev": {
+    "file": "samples\\dev.jsonl",
+    "sha256": "50cedb2142c313c1e658abeeb049cfd57444c06f853eb97573152aefa6591570",
+    "rows": 585,
+    "class_counts": {
+      "0": 155,
+      "1": 177,
+      "2": 200,
+      "3": 53
+    },
+    "source": "filtered 600-row train-only dev set plus extra train neutral rows for planted-cue validation",
+    "extra_neutral_rows": 5
+  }
+}

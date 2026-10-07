@@ -1,0 +1,16 @@
+{
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "prompt": "sentiment_zero_shot_minimal_v1",
+  "scope": "dev",
+  "batch_size": 35,
+  "shuffle_seed": 43,
+  "prompt_sha256": "3d2bd947121dd714577e9b52eacda84fdd28e9a075134775d7a19c03cf0122f6",
+  "batch_format_sha256": "03dc237e769911c2ef2fc5d03644752f38a2403e1b1b5688a1e098c6b00f0a04",
+  "git_commit": "4cd05d4c1c6c6f3c81702911f9f6d2274eff81f8",
+  "created_utc": "2026-10-07T12:10:55+00:00",
+  "expected_rows": 1170,
+  "variant_id_sha256": "d3a7f8e699d88ecbe552b6dc2b692ddf131e60ffc242c4302c7fd1c6836c84b5",
+  "input_sha256": "e2a47aaf4b334e8ba3cfb0a04d0a71db15978b9437307131352d55dc837d85e6",
+  "complete": true
+}

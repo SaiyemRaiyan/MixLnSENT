@@ -1,0 +1,3 @@
+For each numbered item, identify up to three individual words copied exactly from its text that most determined the supplied sentiment label. Return evidence words only; do not explain, translate, paraphrase, or infer words absent from the text. If no word is useful evidence, return NONE.
+
+{items}
